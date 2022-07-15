@@ -1,0 +1,3638 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <!-- Left -->
+    <g class="cohort">
+        <g class="centry">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect x="0" y="0" width="380" height="50"></rect>
+            <path d="M 100 35 L 100 38"></path>
+            <path d="M 100 43 L 100 50"></path>
+            <g>
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 20, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 40, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 60, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 80, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 100, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 120, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 140, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 160, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 180, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 200, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 220, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 240, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 260, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 75)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect y="-50" width="380" height="50" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+            <path d="M 100 15 L 100 12"/>
+            <path d="M 100 7 L 100 0"/>
+            <g transform="matrix(1, 0, 0, -1, 0, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 20, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 40.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 60.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 80.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 100.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 120.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 140.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 160.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 180.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 200.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 220.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 240.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 260.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 130)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect x="0" y="0" width="380" height="50"></rect>
+            <path d="M 100 35 L 100 38"></path>
+            <path d="M 100 43 L 100 50"></path>
+            <g>
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 20, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 40, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 60, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 80, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 100, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 120, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 140, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 160, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 180, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 200, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 220, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 240, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 260, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 205)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect y="-50" width="380" height="50" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+            <path d="M 100 15 L 100 12"/>
+            <path d="M 100 7 L 100 0"/>
+            <g transform="matrix(1, 0, 0, -1, 0, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 20, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 40.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 60.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 80.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 100.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 120.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 140.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 160.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 180.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 200.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 220.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 240.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 260.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 260)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect x="0" y="0" width="380" height="50"></rect>
+            <path d="M 100 35 L 100 38"></path>
+            <path d="M 100 43 L 100 50"></path>
+            <g>
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 20, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 40, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 60, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 80, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 100, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 120, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 140, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 160, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 180, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 200, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 220, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 240, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 260, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+        </g>
+        <g class="centry"  transform="translate(0, 335)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect y="-50" width="380" height="50" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+            <path d="M 100 15 L 100 12"/>
+            <path d="M 100 7 L 100 0"/>
+            <g transform="matrix(1, 0, 0, -1, 0, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 20, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 40.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 60.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 80.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 100.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 120.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 140.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 160.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 180.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 200.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 220.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 240.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 260.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+        </g>
+    </g>
+    <!-- Right -->
+    <g class="cohort" transform="translate(380, 385) rotate(180)">
+        <g class="centry">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect x="0" y="0" width="380" height="50"></rect>
+            <path d="M 100 35 L 100 38"></path>
+            <path d="M 100 43 L 100 50"></path>
+            <g>
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 20, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 40, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 60, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 80, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 100, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 120, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 140, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 160, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 180, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 200, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 220, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 240, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 260, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 75)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect y="-50" width="380" height="50" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+            <path d="M 100 15 L 100 12"/>
+            <path d="M 100 7 L 100 0"/>
+            <g transform="matrix(1, 0, 0, -1, 0, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 20, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 40.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 60.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 80.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 100.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 120.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 140.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 160.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 180.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 200.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 220.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 240.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 260.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 130)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect x="0" y="0" width="380" height="50"></rect>
+            <path d="M 100 35 L 100 38"></path>
+            <path d="M 100 43 L 100 50"></path>
+            <g>
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 20, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 40, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 60, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 80, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 100, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 120, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 140, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 160, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 180, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 200, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 220, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 240, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 260, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 205)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect y="-50" width="380" height="50" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+            <path d="M 100 15 L 100 12"/>
+            <path d="M 100 7 L 100 0"/>
+            <g transform="matrix(1, 0, 0, -1, 0, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 20, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 40.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 60.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 80.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 100.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 120.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 140.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 160.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 180.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 200.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 220.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 240.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 260.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 260)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect x="0" y="0" width="380" height="50"></rect>
+            <path d="M 100 35 L 100 38"></path>
+            <path d="M 100 43 L 100 50"></path>
+            <g>
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 20, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 40, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 60, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 80, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 100, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 120, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 140, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 160, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 180, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 200, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 220, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 240, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 260, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+        </g>
+        <g class="centry"  transform="translate(0, 335)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect y="-50" width="380" height="50" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+            <path d="M 100 15 L 100 12"/>
+            <path d="M 100 7 L 100 0"/>
+            <g transform="matrix(1, 0, 0, -1, 0, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 20, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 40.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 60.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 80.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 100.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 120.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 140.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 160.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 180.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 200.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 220.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 240.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 260.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+        </g>
+    </g>
+    <!-- Top -->
+    <g class="cohort" transform="translate(385, 0) rotate(90)">
+        <g class="centry">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect x="0" y="0" width="380" height="50"></rect>
+            <path d="M 100 35 L 100 38"></path>
+            <path d="M 100 43 L 100 50"></path>
+            <g>
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 20, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 40, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 60, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 80, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 100, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 120, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 140, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 160, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 180, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 200, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 220, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 240, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 260, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 75)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect y="-50" width="380" height="50" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+            <path d="M 100 15 L 100 12"/>
+            <path d="M 100 7 L 100 0"/>
+            <g transform="matrix(1, 0, 0, -1, 0, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 20, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 40.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 60.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 80.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 100.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 120.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 140.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 160.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 180.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 200.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 220.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 240.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 260.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 130)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect x="0" y="0" width="380" height="50"></rect>
+            <path d="M 100 35 L 100 38"></path>
+            <path d="M 100 43 L 100 50"></path>
+            <g>
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 20, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 40, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 60, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 80, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 100, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 120, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 140, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 160, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 180, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 200, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 220, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 240, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 260, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 205)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect y="-50" width="380" height="50" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+            <path d="M 100 15 L 100 12"/>
+            <path d="M 100 7 L 100 0"/>
+            <g transform="matrix(1, 0, 0, -1, 0, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 20, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 40.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 60.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 80.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 100.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 120.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 140.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 160.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 180.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 200.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 220.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 240.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 260.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 260)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect x="0" y="0" width="380" height="50"></rect>
+            <path d="M 100 35 L 100 38"></path>
+            <path d="M 100 43 L 100 50"></path>
+            <g>
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 20, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 40, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 60, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 80, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 100, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 120, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 140, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 160, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 180, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 200, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 220, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 240, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 260, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+        </g>
+        <g class="centry"  transform="translate(0, 335)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect y="-50" width="380" height="50" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+            <path d="M 100 15 L 100 12"/>
+            <path d="M 100 7 L 100 0"/>
+            <g transform="matrix(1, 0, 0, -1, 0, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 20, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 40.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 60.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 80.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 100.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 120.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 140.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 160.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 180.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 200.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 220.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 240.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 260.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+        </g>
+    </g>
+    <!-- Bottom -->
+    <g class="cohort" transform="translate(0, 380) rotate(-90)">
+        <g class="centry">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect x="0" y="0" width="380" height="50"></rect>
+            <path d="M 100 35 L 100 38"></path>
+            <path d="M 100 43 L 100 50"></path>
+            <g>
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 20, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 40, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 60, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 80, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 100, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 120, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 140, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 160, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 180, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 200, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 220, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 240, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 260, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 75)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect y="-50" width="380" height="50" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+            <path d="M 100 15 L 100 12"/>
+            <path d="M 100 7 L 100 0"/>
+            <g transform="matrix(1, 0, 0, -1, 0, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 20, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 40.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 60.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 80.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 100.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 120.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 140.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 160.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 180.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 200.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 220.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 240.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 260.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 130)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect x="0" y="0" width="380" height="50"></rect>
+            <path d="M 100 35 L 100 38"></path>
+            <path d="M 100 43 L 100 50"></path>
+            <g>
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 20, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 40, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 60, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 80, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 100, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 120, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 140, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 160, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 180, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 200, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 220, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 240, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 260, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 205)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect y="-50" width="380" height="50" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+            <path d="M 100 15 L 100 12"/>
+            <path d="M 100 7 L 100 0"/>
+            <g transform="matrix(1, 0, 0, -1, 0, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 20, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 40.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 60.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 80.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 100.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 120.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 140.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 160.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 180.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 200.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 220.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 240.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 260.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+        </g>
+        <g class="centry" transform="translate(0, 260)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect x="0" y="0" width="380" height="50"></rect>
+            <path d="M 100 35 L 100 38"></path>
+            <path d="M 100 43 L 100 50"></path>
+            <g>
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 20, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 40, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 60, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 80, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 100, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 120, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 140, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 160, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 180, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 200, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 220, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 240, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 260, 0)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"></ellipse>
+                <ellipse cx="115" cy="46" rx="2" ry="2"></ellipse>
+                <path d="M 100 0 L 100 35"></path>
+                <path d="M 120 0 L 120 35"></path>
+                <path d="M 100 35 L 105 35"></path>
+                <path d="M 110 35 L 120 35"></path>
+                <path d="M 100 24 L 105 24"></path>
+                <path d="M 110 24 L 120 24"></path>
+            </g>
+        </g>
+        <g class="centry"  transform="translate(0, 335)">
+            <style>
+                * {
+                fill: #ccc;
+                stroke: #000;
+                }
+            </style>
+            <rect y="-50" width="380" height="50" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+            <path d="M 100 15 L 100 12"/>
+            <path d="M 100 7 L 100 0"/>
+            <g transform="matrix(1, 0, 0, -1, 0, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 20, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 40.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 60.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 80.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 100.000001, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 120.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 140.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 160.000002, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 180.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 200.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 220.000003, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 240.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+            <g transform="matrix(1, 0, 0, -1, 260.000004, 50.000001)">
+                <ellipse cx="105" cy="46" rx="2" ry="2"/>
+                <ellipse cx="115" cy="46" rx="2" ry="2"/>
+                <path d="M 100 0 L 100 35"/>
+                <path d="M 120 0 L 120 35"/>
+                <path d="M 100 35 L 105 35"/>
+                <path d="M 110 35 L 120 35"/>
+                <path d="M 100 24 L 105 24"/>
+                <path d="M 110 24 L 120 24"/>
+            </g>
+        </g>
+    </g>
+</svg>
