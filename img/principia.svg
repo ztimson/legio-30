@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <style>
+        * {
+            fill: #ccc;
+            stroke: #000;
+        }
+    </style>
+    <g class="principia">
+        <rect x="0" y="0" height="275" width="200" style="stroke-opacity: 0"></rect>
+        <!-- Perimeter -->
+        <line x1="0" y1="0" x2="200" y2="0"></line>
+        <line x1="200" y1="0" x2="200" y2="275" stroke-dasharray="102.5 20 152.5"></line>
+        <line x1="0" y1="0" x2="0" y2="275" stroke-dasharray="102.5 20 152.5"></line>
+        <line x1="200" y1="275" x2="0" y2="275" stroke-dasharray="90 20 90"></line>
+        <!-- Rooms -->
+        <line x1="0" y1="50" x2="200" y2="50" stroke-dasharray="51.25 10 28.75 20 28.75 10 51.25"></line>
+        <line x1="37.5" y1="0" x2="37.5" y2="50" stroke-dasharray="35 10 5"></line>
+        <line x1="75" y1="0" x2="75" y2="50"></line>
+        <line x1="125" y1="0" x2="125" y2="50"></line>
+        <line x1="162.5" y1="0" x2="162.5" y2="50" stroke-dasharray="35 10 5"></line>
+        <!-- Corridor -->
+        <line x1="0" y1="100" x2="200" y2="100" stroke-dasharray="10 20 20 20 20 20 20 20 20 20 10"></line>
+        <line x1="0" y1="125" x2="200" y2="125" stroke-dasharray="10 20 20 20 20 20 20 20 20 20 10"></line>
+        <!-- Courtyard -->
+        <ellipse cx="25" cy="150" rx="2" ry="2"/>
+        <ellipse cx="175" cy="150" rx="2" ry="2"/>
+        <ellipse cx="25" cy="175" rx="2" ry="2"/>
+        <ellipse cx="175" cy="175" rx="2" ry="2"/>
+        <ellipse cx="25" cy="200" rx="2" ry="2"/>
+        <ellipse cx="175" cy="200" rx="2" ry="2"/>
+        <ellipse cx="25" cy="225" rx="2" ry="2"/>
+        <ellipse cx="175" cy="225" rx="2" ry="2"/>
+        <ellipse cx="25" cy="250" rx="2" ry="2"/>
+        <ellipse cx="50" cy="250" rx="2" ry="2"/>
+        <ellipse cx="75" cy="250" rx="2" ry="2"/>
+        <ellipse cx="100" cy="250" rx="2" ry="2"/>
+        <ellipse cx="125" cy="250" rx="2" ry="2"/>
+        <ellipse cx="150" cy="250" rx="2" ry="2"/>
+        <ellipse cx="175" cy="250" rx="2" ry="2"/>
+    </g>
+</svg>
