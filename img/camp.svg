@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <svg x="0" y="0" width="100%" height="100%">
+        <rect x="2.5%" y="2.5%" width="95%" height="95%" rx="10%" fill="#009a17"></rect>
+        <!-- Ditch -->
+        <rect class="fossa-agar" x="2.5%" y="2.5%" width="95%" height="95%" rx="10%" fill-opacity="0" stroke="#836539" />
+        <!-- Palisade -->
+        <rect class="vallum" x="6%" y="6%" width="88%" height="88%" rx="6%" stroke-dasharray="0.5% 0.5%" fill-opacity="0" stroke="#000" />
+        <!-- Roads -->
+        <g class="roads">
+            <rect x="0" y="55%" width="100%" height="6%" fill="#009a17" />
+            <rect x="47%" y="0" width="6%" height="100%" fill="#009a17" />
+            <rect x="0" y="56%" width="100%" height="4%" fill="#666666" />
+            <rect x="48%" y="0" width="4%" height="100%" fill="#666666" />
+            <rect x="7%" y="42%" width="86%" height="2%" fill="#666666" />
+        </g>
+        <!-- Palisade -->
+        <rect class="vallum" x="5%" y="5%" width="90%" height="90%" rx="7.5%" />
+        <!-- North towers -->
+        <rect class="tower" x="44%" y="5%" width="3%" height="3%" fill="#c19a6b" stroke="black" stroke-width="1%"></rect>
+        <rect class="tower" x="53%" y="5%" width="3%" height="3%" fill="#c19a6b" stroke="black" stroke-width="1%"></rect>
+        <!-- East towers -->
+        <rect class="tower" x="92%" y="52%" width="3%" height="3%" fill="#c19a6b" stroke="black" stroke-width="1%"></rect>
+        <rect class="tower" x="92%" y="61%" width="3%" height="3%" fill="#c19a6b" stroke="black" stroke-width="1%"></rect>
+        <!-- South towers -->
+        <rect class="tower" x="44%" y="92%" width="3%" height="3%" fill="#c19a6b" stroke="black" stroke-width="1%"></rect>
+        <rect class="tower" x="53%" y="92%" width="3%" height="3%" fill="#c19a6b" stroke="black" stroke-width="1%"></rect>
+        <!-- West towers -->
+        <rect class="tower" x="5%" y="52%" width="3%" height="3%" fill="#c19a6b" stroke="black" stroke-width="1%"></rect>
+        <rect class="tower" x="5%" y="61%" width="3%" height="3%" fill="#c19a6b" stroke="black" stroke-width="1%"></rect>
+    </svg>
+    <!-- Fabricae -->
+    <svg class="fabricae" x="35%" y="25%" width="10%" height="10%" transform="rotate(90)">
+        <rect height="100%" width="100%" fill="#ff6600" stroke="#ff3300"></rect>
+        <rect x="26%" y="26%" width="50%" height="50%" fill="#009a17" stroke="#ff3300"></rect>
+        <rect x="76%" y="42%" width="20%" height="20%" fill="#009a17" stroke="#ff3300"></rect>
+        <rect x="72%" y="43%" width="31%" height="18%" fill="#009a17"></rect>
+        </svg>
+</svg>
