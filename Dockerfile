@@ -23,6 +23,6 @@ RUN BUILD_MODE=$([ "$NODE_ENV" = "prod" ] && echo "dynmaic-prod" || echo "dynami
 # Use Nginx to serve
 FROM nginx:1.20-alpine
 COPY --from=build /app/dist /usr/share/nginx/html
-COPY docker/config/robots.txt /usr/share/nginx/html/robots.txt
-COPY docker/config/nginx.conf /etc/nginx/nginx.conf
+COPY docker/robots.txt /usr/share/nginx/html/robots.txt
+COPY docker/nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
