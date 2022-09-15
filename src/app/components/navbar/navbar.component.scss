@@ -1,0 +1,55 @@
+.navbar-spacing {
+	height: 64px;
+	width: 100%;
+}
+
+::ng-deep mat-toolbar {
+	background: #000 !important;
+	border-bottom: #fff solid 1px;
+	height: 64px;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+
+	.mat-toolbar-row {
+		height: 100%;
+	}
+
+	.navbar-brand {
+		color: #fff;
+		text-decoration: none;
+		font-weight: lighter;
+	}
+
+	.navbar-button {
+		color: rgba(255, 255, 255, 0.55);
+		font-weight: normal;
+		padding: 0 8px 0 8px;
+
+		&:hover {
+			color: rgba(255, 255, 255, 0.75);
+		}
+	}
+}
+
+::ng-deep .mat-menu-content {
+	background: #000;
+	border: #fff solid 1px;
+	padding: 0 !important;
+	border-radius: 0.25rem;
+
+	mat-divider {
+		border-color: white;
+		margin-top: 0.2rem;
+		padding-bottom: 0.1rem;
+	}
+
+	button {
+		height: 36px;
+		line-height: 36px;
+
+		&:hover {
+			background: rgba(255, 255, 255, 0.15) !important;
+		}
+	}
+}

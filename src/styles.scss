@@ -1,0 +1,38 @@
+@use '@angular/material' as mat;
+@include mat.core();
+
+// hue. Available color palettes: https://material.io/design/color/
+$LegioXXX-primary: mat.define-palette(mat.$red-palette, 900);
+$LegioXXX-accent: mat.define-palette(mat.$indigo-palette, 900);
+$LegioXXX-warn: mat.define-palette(mat.$orange-palette, 500);
+$LegioXXX-theme: mat.define-dark-theme((
+  color: (
+    primary: $LegioXXX-primary,
+    accent: $LegioXXX-accent,
+    warn: $LegioXXX-warn,
+  )
+));
+
+@include mat.all-component-themes($LegioXXX-theme);
+
+@import '~bootstrap/dist/css/bootstrap-utilities.min.css';
+
+html, body {
+	height: 100%;
+}
+body {
+	background: #000;
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	margin: 0;
+}
+
+* { scroll-behavior: smooth !important; }
+
+a { color: #ff0000; }
+a:visited:hover, a:hover { color: #aa0000; }
+a:visited { color: #ff5555; }
+
+.fill {
+	min-height: calc(100vh - 64px);
+}
