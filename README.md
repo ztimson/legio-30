@@ -12,8 +12,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - _[Docker](https://docs.docker.com/install/) (Optional)_
 
 ## Setup
-If you are setting up CWB for the first time, please check out the [CWB project](https://gitlab.psdcitywide.com/cwb/cwb).
-
+The project can either be run using NPM or Docker. NPM is recommended for development.
 <details>
 <summary>NPM</summary>
 
@@ -37,12 +36,12 @@ The website should now be accessible on [http://localhost:4200](http://localhost
 npm run start
 
 # Build production
-npm run build
+npm run build:prod
 
-# Run unit tests
-npm test
+# Build docker image
+docker build -t legio-xxx:<TAG>
 
-# Run linter
-npm run lint
+# Run docker image
+docker run -p 4200:80 legio-xxx:<TAG>
 ```
 
