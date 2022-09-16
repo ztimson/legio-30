@@ -1,8 +1,3 @@
-.sitemap-header {
-	color: rgba(255, 255, 255, 0.8);
-	margin: 0;
-}
-
 ul {
 	list-style: none;
 	padding: 0;
@@ -13,4 +8,16 @@ ul {
 	}
 	a:visited:hover, a:hover { color: rgba(255, 255, 255, 0.75); }
 	a:visited { color: rgba(255, 255, 255, 0.55); }
+}
+
+.footer-map {
+	height: 200px;
+	background: black url("/assets/img/map.png") no-repeat top center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.sitemap-header {
+	color: rgba(255, 255, 255, 0.8);
+	margin: 0;
 }
