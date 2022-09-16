@@ -9,21 +9,8 @@
 		<div class="flex-grow-1"></div>
 		<div *ngIf="!hamburger">
 			<a href="#about"><button mat-button class="navbar-button">About</button></a>
+			<a href="#contact"><button mat-button class="navbar-button">Contact</button ></a>
 			<a href="#gallery"><button mat-button class="navbar-button">Gallery</button></a>
-			<a href="#contact"><button mat-button class="navbar-button">Contact</button></a>
-			<button mat-button [matMenuTriggerFor]="learnMenu" class="navbar-button">
-				Learn <mat-icon>expand_more</mat-icon>
-			</button>
-			<mat-menu #learnMenu="matMenu">
-				<button mat-menu-item>Legio XXX</button>
-				<button mat-menu-item>Legion Camp</button>
-				<button mat-menu-item>Legion Headquarters</button>
-				<button mat-menu-item>Legion Organization</button>
-				<button mat-menu-item>Legionary Equipment</button>
-				<button mat-menu-item>Legionairy Training</button>
-				<mat-divider></mat-divider>
-				<button mat-menu-item>Resources</button>
-			</mat-menu>
 			<button mat-button [matMenuTriggerFor]="eventsMenu" class="navbar-button">
 				Events <mat-icon>expand_more</mat-icon>
 			</button>
@@ -33,16 +20,29 @@
 				<mat-divider></mat-divider>
 				<button mat-menu-item>Calendar</button>
 			</mat-menu>
+			<button mat-button [matMenuTriggerFor]="learnMenu" class="navbar-button">
+				Learn <mat-icon>expand_more</mat-icon>
+			</button>
+			<mat-menu #learnMenu="matMenu">
+				<button mat-menu-item>Legio XXX</button>
+				<button mat-menu-item>Legion Camp</button>
+				<button mat-menu-item>Legion Headquarters</button>
+				<button mat-menu-item>Legion Organization</button>
+				<button mat-menu-item>Legionairy Equipment</button>
+				<button mat-menu-item>Legionairy Training</button>
+				<mat-divider></mat-divider>
+				<button mat-menu-item>Resources</button>
+			</mat-menu>
 			<button mat-button [matMenuTriggerFor]="membersMenu" class="navbar-button">
 				Members <mat-icon>expand_more</mat-icon>
 			</button>
 			<mat-menu #membersMenu="matMenu">
 				<button mat-menu-item>Getting Started</button>
-				<mat-divider></mat-divider>
 				<button mat-menu-item>Rules & Regulations</button>
-				<button mat-menu-item>Approved Vendors</button>
+				<mat-divider></mat-divider>
 				<button mat-menu-item>Kit Assembly</button>
 				<button mat-menu-item>Kit Maintinance</button>
+				<button mat-menu-item>Trusted Vendors</button>
 				<mat-divider></mat-divider>
 				<button mat-menu-item>Login/Register</button>
 			</mat-menu>
