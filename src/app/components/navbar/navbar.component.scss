@@ -17,18 +17,21 @@
 
 	.navbar-brand {
 		color: #fff;
-		text-decoration: none;
 		font-weight: lighter;
+
+		&:hover img {
+			filter: brightness(5%) sepia(75) saturate(100) hue-rotate(25deg);
+		}
 	}
 
 	.navbar-button {
-		color: rgba(255, 255, 255, 0.55);
+		//color: rgba(255, 255, 255, 0.55);
 		font-weight: normal;
 		padding: 0 8px 0 8px;
 
-		&:hover {
-			color: rgba(255, 255, 255, 0.75);
-		}
+		//&:hover {
+		//	color: rgba(255, 255, 255, 0.75);
+		//}
 	}
 }
 

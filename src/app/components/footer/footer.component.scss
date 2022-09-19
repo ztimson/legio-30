@@ -1,23 +1,23 @@
 ul {
 	list-style: none;
 	padding: 0;
-
-	a {
-		text-decoration: none;
-		color: rgba(255, 255, 255, 0.55);
-	}
-	a:visited:hover, a:hover { color: rgba(255, 255, 255, 0.75); }
-	a:visited { color: rgba(255, 255, 255, 0.55); }
-}
-
-.footer-map {
-	height: 200px;
-	background: black url("/assets/img/map.png") no-repeat top center;
-	background-attachment: fixed;
-	background-size: cover;
 }
 
 .sitemap-header {
 	color: rgba(255, 255, 255, 0.8);
 	margin: 0;
 }
+
+.social {
+	background: #7f0000;
+
+	a, a:visited { color: #fff; }
+	a:hover, a:visited:hover { color: rgba(255, 255, 255, 0.8); }
+}
+
+.copywright {
+	a, a:visited { color: #b10000; }
+	a:hover, a:visited:hover { color: #cc0000; }
+}
+
+

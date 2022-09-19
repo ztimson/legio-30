@@ -1,16 +1,16 @@
 <mat-toolbar>
 	<mat-toolbar-row>
 		<div>
-			<a class="navbar-brand d-flex align-items-center" href="#">
+			<a class="navbar-brand d-flex align-items-center" routerLink="/" fragment="banner">
 				<img src="assets/img/capricorn.png" alt="Capricorn" height="45" width="45">
 				<div class="px-2">LEGIO · XXX</div>
 			</a>
 		</div>
 		<div class="flex-grow-1"></div>
 		<div *ngIf="!hamburger">
-			<a href="#about"><button mat-button class="navbar-button">About</button></a>
-			<a href="#contact"><button mat-button class="navbar-button">Contact</button ></a>
-			<a href="#gallery"><button mat-button class="navbar-button">Gallery</button></a>
+			<a routerLink="/" fragment="about"><button mat-button class="navbar-button">About</button></a>
+			<a routerLink="/" fragment="contact"><button mat-button class="navbar-button">Contact</button ></a>
+			<a routerLink="gallery"><button mat-button class="navbar-button">Gallery</button></a>
 			<button mat-button [matMenuTriggerFor]="eventsMenu" class="navbar-button">
 				Events <mat-icon>expand_more</mat-icon>
 			</button>
