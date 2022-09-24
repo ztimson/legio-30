@@ -1,13 +1,10 @@
 import {
 	AfterViewInit,
 	Component,
-	ElementRef,
-	Host,
 	HostListener,
 	Input,
 	OnDestroy,
-	OnInit,
-	ViewChild
+	OnInit
 } from '@angular/core';
 import {interval, Subscription} from 'rxjs';
 import {shuffle} from '../../misc/utils';

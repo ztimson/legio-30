@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {NAVIGATION} from '../../misc/navigation';
 
 @Component({
 	selector: 'xxx-home',
@@ -6,5 +7,5 @@ import {Component} from '@angular/core';
 	styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-
+	navigation = NAVIGATION;
 }

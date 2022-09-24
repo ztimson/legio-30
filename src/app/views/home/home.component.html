@@ -1,52 +1,75 @@
+<!-- Banner -->
 <header id="banner" class="fill w-100">
 	<xxx-banner></xxx-banner>
 </header>
-<section id="about" class="d-flex flex-column align-items-center bg-black text-white" style="height: 100vh">
-	<div class="mb-5 py-5"><!-- Spacer --></div>
-	<h2>About</h2>
-	<div class="container">
-		<div class="d-flex align-items-center justify-content-around">
-			<div class="">
-				<img src="/assets/img/trajan.png" height="auto" width="275px">
-			</div>
-			<div class="text-center">
-				<h4>Legio XXX Vlpia Victrix</h4>
-				<h4 class="mb-4">(Trajan's Victorious Thirtieth Legion)</h4>
-				<p>Legio XXX is a North American Roman re-enactment group that has been active since 2004.</p>
-				<p>It's members represent a cross between living history enthusiasts and edutainers</p>
-				<p>recreating the lives of LEGIO XXX, founded by emperor Trajan in the 2nd centery AD.</p>
-			</div>
-			<div class="ps-4">
-				<div class="p-1 text-center" style="border: solid 5px white;">
-					<div class="p-1" style="border: dashed 5px white;">
-						<div class="p-3" style="border: solid 5px white;">
-							<h3 class="text-nowrap" style="font-size: 2em">LEGIO · XXX</h3>
-							<img src="/assets/img/capricorn.png" class="my-3" alt="capricorn" height="140em" width="140em">
-							<h4 class="text-nowrap" style="font-size: 1.5em">VLPIA · VICTRIX</h4>
-						</div>
-					</div>
-				</div>
+<!-- ABout -->
+<section id="about" class="d-flex flex-column flex-md-row align-items-center justify-content-center bg-black text-white fill py-5 py-md-0">
+	<div class="d-none d-md-inline flex-grow-1 text-end" style="flex-basis: 0">
+		<img src="/assets/img/trajan2.png" alt="Statue of Trajan" height="450px" width="auto">
+	</div>
+	<div class="flex-grow-0 text-center px-5">
+		<h1>About</h1>
+		<h2>Legio XXX - Vlpia Victrix</h2>
+		<h3 class="mb-4">(Trajan's Victorious Thirtieth Legion)</h3>
+		<p>
+			Legio XXX is a North American Roman reenactment group established in 2004.
+			<br><br>
+			It's members represent a cross between living history enthusiasts and "edutainers"
+			<br><br>
+			that recreate the lives of soldiers found in Trajan's leagions during the 1st - 2nd Century AD
+		</p>
+	</div>
+	<div class="flex-md-grow-1" style="flex-basis: 0">
+		<img class="mt-5" src="/assets/img/standard.png" alt="Legio XXX Standard" height="250px" width="auto">
+	</div>
+</section>
+<!-- Discord -->
+<section class="d-flex" style="background-color: #990000">
+	<div class="d-flex flex-grow-1">
+		<div class="h-100 w-100" style="background: #7289d9"></div>
+		<img class="d-block d-md-none" src="/assets/img/discord.png" height="100px" width="auto">
+		<img class="d-none d-md-block" src="/assets/img/discord.png" height="200px" width="auto">
+	</div>
+	<div class="d-flex justify-content-start align-items-center flex-grow-1 p-3">
+		<div class="d-block text-center">
+			<h1 class="d-block m-0 mb-md-3 transparent-link">
+				<a href="https://discord.gg/wW458KYR79" target="_blank">Join us on Discord</a>
+			</h1>
+			<div class="d-none d-md-inline">
+				<p>
+					Ask us questions, get involved
+					<br><br>
+					and celebrate the glory of Rome with us!
+				</p>
 			</div>
 		</div>
 	</div>
 </section>
-<section id="recruitment" class="d-flex flex-column align-items-center" style="height: 100vh; background: #fff; color: #000;">
-	<div class="mb-5 py-5"><!-- Spacer --></div>
-	<div class="d-flex align-items-center justify-content-center">
-		<div>
-			<img src="/assets/img/recruitment.png" height="500px" width="auto">
-		</div>
-		<div class="ms-5 text-center">
+<!-- Recruitment -->
+<section id="recruitment" class="d-flex flex-column flex-md-row align-items-center justify-content-center fill invert">
+	<div class="flex-grow-1 p-5 pb-0 text-center text-md-end" style="flex-basis: 0">
+		<img src="/assets/img/recruitment.png" alt="I want you for Legio XXX" style="max-width: min(90%, 400px)">
+	</div>
+	<div class="d-flex flex-grow-1 justify-content-start align-items-center" style="flex-basis: 0">
+		<div class="d-block text-center">
 			<h2>Enlist Today!</h2>
-			<p>Legio XXX is looking for new recruits.</p>
-			<p>Check out the <a>Getting Started</a> page to learn more</p>
-			<p>and <a>register here.</a></p>
+			<p>
+				Interested in any <a routerLink="/calendar">events</a>?
+				<br><br>
+				Legio XXX is looking for new recruits.
+				<br><br>
+				Check out the <a routerLink="/getting-starterd">Getting Started</a> page to learn more
+				<br><br>
+				or <a routerLink="/login">register here.</a>
+			</p>
 		</div>
 	</div>
 </section>
+<!-- Page Break-->
 <section style="background: #fff">
-	<img src="/assets/img/formation.png" width="100%" height="auto">
+	<img src="/assets/img/formation.png" alt="Legion formation" width="100%" height="auto" style="transform: translateY(10px)">
 </section>
+<!-- Contact -->
 <section id="contact" class="d-flex flex-column align-items-center py-5 bg-black text-white" style="min-height: 100vh">
 	<div class="mb-5 py-5"><!-- Spacer --></div>
 	<h2>Contact</h2>

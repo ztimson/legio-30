@@ -48,7 +48,23 @@ a, a:visited {
 }
 a:hover, a:visited:hover { color: #b10000; }
 
+.invert {
+	background: #fff;
+	color: #000;
+
+	a, a:visited {
+		text-decoration: none;
+		color: #b10000;
+	}
+	a:hover, a:visited:hover { color: #cc0000; }
+}
+
 .fill {
 	height: 0;
 	min-height: calc(100vh - 64px);
+}
+
+.transparent-link {
+	a, a:visited { color: #fff; }
+	a:hover, a:visited:hover { color: rgba(255, 255, 255, 0.8); }
 }
