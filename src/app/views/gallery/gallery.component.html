@@ -1,0 +1,10 @@
+<div class="invert p-5">
+	<div *ngFor="let album of photos" class="mb-5">
+		<h1 class="mb-0">{{album.album}}</h1>
+		<mat-divider class="mb-3"></mat-divider>
+		<div *ngFor="let photo of album.photos" class="d-inline-block me-3 mb-3">
+			<img [alt]="photo.caption" [src]="photo.src" height="150px" width="auto">
+		</div>
+
+	</div>
+</div>

@@ -35,9 +35,9 @@ export const NAVIGATION: NavigationGroup = [
 			{label: 'Getting Started', url: '/getting-started'},
 			{label: 'Rules & Regulations', url: '/rules'},
 		], [
+			{label: 'Trusted Vendors', url: '/vendors'},
 			{label: 'Kit Assembly', url: '/diy'},
 			{label: 'Kit Maintinance', url: '/info/maintinance'},
-			{label: 'Trusted Vendors', url: '/vendors'},
 		], [
 			{label: 'Login/Register', url: '/login'},
 	]]},

@@ -22,8 +22,11 @@ export class BannerComponent implements AfterViewInit, OnDestroy, OnInit {
 	images = [
 		'/assets/img/banner/aquilifer.jpg',
 		'/assets/img/banner/castra.jpg',
+		'/assets/img/banner/centurio.jpg',
+		'/assets/img/banner/formation.jpg',
 		'/assets/img/banner/ROM.jpg',
 		'/assets/img/banner/shield.jpg',
+		'/assets/img/banner/testudo.jpg',
 		'/assets/img/banner/tripod.jpg',
 	];
 	selected  = 0;

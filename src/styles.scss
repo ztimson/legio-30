@@ -57,6 +57,10 @@ a:hover, a:visited:hover { color: #b10000; }
 		color: #b10000;
 	}
 	a:hover, a:visited:hover { color: #cc0000; }
+
+	mat-divider {
+		border-color: rgba(0, 0, 0, 0.4);
+	}
 }
 
 .fill {
