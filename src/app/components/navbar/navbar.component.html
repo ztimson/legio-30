@@ -15,6 +15,9 @@
 			<ng-container *ngFor="let group of links.other">
 				<ng-template [ngTemplateOutlet]="navGroup" [ngTemplateOutletContext]="{'$implicit': group}"></ng-template>
 			</ng-container>
+			<a href="#">
+				<button mat-button class="navbar-button">Donate</button>
+			</a>
 		</div>
 		<button *ngIf="hamburger" mat-icon-button class="mr-3">
 			<mat-icon (click)="hamburgerClick.emit()">menu</mat-icon>
