@@ -3,8 +3,7 @@
 		<h1 class="mb-0">{{album.album}}</h1>
 		<mat-divider class="mb-3"></mat-divider>
 		<div *ngFor="let photo of album.photos" class="d-inline-block me-3 mb-3">
-			<img [alt]="photo.caption" [src]="photo.src" height="150px" width="auto">
+			<img [alt]="photo.caption" [src]="photo.src" height="150px" width="auto" loading="lazy">
 		</div>
-
 	</div>
 </div>
