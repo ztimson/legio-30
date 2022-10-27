@@ -16,19 +16,23 @@ export const NAVIGATION: NavigationGroup = [
 			{label: 'Gallery', url: '/gallery'},
 	]]},
 	{label: 'Events', children: [[
-			{label: 'Castra Aestiva', url: '/event', fragment: 'aestiva'},
-			{label: 'Castra Hiberna', url: '/event', fragment: 'hiberna'},
+			{label: 'Castra Aestiva', url: '/events', fragment: 'aestiva'},
+			{label: 'Castra Hiberna', url: '/events', fragment: 'hiberna'},
 		], [
-			{label: 'Calendar', url: '/event/calendar'},
+			{label: 'Calendar', url: '/calendar'},
 	]]},
 	{label: 'Learn', children: [[
-			{label: 'Legio XXX', url: '/info/legio-xxx'},
-			{label: 'Legion Camp', url: '/info/legion-camp'},
-			{label: 'Legion Headquarters', url: '/info/legion-headquarters'},
-			{label: 'Legion Organization', url: '/info/legion-organization'},
-			{label: 'Legionairy Equipment', url: '/info/legionairy-equipment'},
-			{label: 'Legionairy Training', url: '/info/legionairy-training'},
+			{label: 'Common Questions', url: '/info/questions'},
 		], [
+			{label: 'Trajan', url: '/info/trajan'},
+			{label: 'Legio XXX', url: '/info/legio-xxx'},
+			{label: 'Legion Camp', url: '/info/camp'},
+			{label: 'Legion Headquarters', url: '/info/headquarters'},
+			{label: 'Legion Organization', url: '/info/organization'},
+			{label: 'Legionairy Equipment', url: '/info/equipment'},
+			{label: 'Legionairy Training', url: '/info/training'},
+		], [
+			{label: 'Glossary', url: '/info/glossary'},
 			{label: 'Resources', url: '/info/resources'},
 	]]},
 	{label: 'Reenact', children: [[
@@ -37,7 +41,7 @@ export const NAVIGATION: NavigationGroup = [
 		], [
 			{label: 'Trusted Vendors', url: '/vendors'},
 			{label: 'Kit Assembly', url: '/diy'},
-			{label: 'Kit Maintinance', url: '/info/maintinance'},
+			{label: 'Kit Maintinance', url: '/maintinance'},
 		], [
 			{label: 'Login/Register', url: '/login'},
 	]]},

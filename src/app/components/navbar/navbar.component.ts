@@ -1,6 +1,6 @@
 import {AfterViewInit, Component, EventEmitter, Input, OnDestroy, Output} from '@angular/core';
 import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
-import {filter, Subscription} from 'rxjs';
+import {combineLatest, filter, Subscription} from 'rxjs';
 import {NAVIGATION} from '../../misc/navigation';
 
 @Component({
@@ -20,11 +20,12 @@ export class NavbarComponent implements AfterViewInit, OnDestroy {
 
 	@Output() hamburgerClick = new EventEmitter<void>();
 
-	constructor(private route: ActivatedRoute) { }
+	constructor(private route: ActivatedRoute, private router: Router) { }
 
 	ngAfterViewInit() {
-		this.sub = this.route.fragment.subscribe(frag => {
-			console.log('fire');
+
+		this.sub = combineLatest([this.router.events.pipe(filter(e => e instanceof NavigationEnd)), this.route.fragment]).subscribe(([url, frag]) => {
+			console.log('fire', frag);
 			if(frag) this.scroll(frag);
 			else this.scroll('top');
 		});

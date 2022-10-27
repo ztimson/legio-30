@@ -1,8 +1,7 @@
-import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
+import {BreakpointObserver} from '@angular/cdk/layout';
 import { Component } from '@angular/core';
 import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
 import {filter} from 'rxjs';
-import { LocalStorage } from 'webstorage-decorators';
 
 @Component({
   selector: 'app-root',

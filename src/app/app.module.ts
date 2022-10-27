@@ -8,17 +8,21 @@ import { AppComponent } from './containers/app/app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from './material.module';
 import {FourOFourComponent} from './views/404/404.component';
+import {CalendarComponent} from './views/events/calendar/calendar.component';
 import {GalleryComponent} from './views/gallery/gallery.component';
 import {HomeComponent} from './views/home/home.component';
+import {RulesComponent} from './views/reenact/rules/rules.component';
 
 export const APP_COMPONENTS = [
 	AppComponent,
 	BannerComponent,
+	CalendarComponent,
+	FooterComponent,
 	FourOFourComponent,
 	GalleryComponent,
 	HomeComponent,
-	FooterComponent,
-	NavbarComponent
+	NavbarComponent,
+	RulesComponent
 ]
 
 @NgModule({
