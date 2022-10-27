@@ -37,6 +37,7 @@ export const NAVIGATION: NavigationGroup = [
 	]]},
 	{label: 'Reenact', children: [[
 			{label: 'Getting Started', url: '/getting-started'},
+			{label: 'Marching Drill', url: '/drill'},
 			{label: 'Rules & Regulations', url: '/rules'},
 		], [
 			{label: 'Trusted Vendors', url: '/vendors'},
