@@ -23,11 +23,9 @@ export class NavbarComponent implements AfterViewInit, OnDestroy {
 	constructor(private route: ActivatedRoute, private router: Router) { }
 
 	ngAfterViewInit() {
-
 		this.sub = combineLatest([this.router.events.pipe(filter(e => e instanceof NavigationEnd)), this.route.fragment]).subscribe(([url, frag]) => {
-			console.log('fire', frag);
 			if(frag) this.scroll(frag);
-			else this.scroll('top');
+			else this.scrollTop();
 		});
 	}
 
@@ -39,5 +37,10 @@ export class NavbarComponent implements AfterViewInit, OnDestroy {
 		const el = document.getElementById(id);
 		if(el) el.scrollIntoView({behavior: 'smooth'});
 		else setTimeout(() => this.scroll(id), 500);
+	}
+
+	scrollTop() {
+		const container = document.getElementsByClassName('app-container')[0];
+		container.scrollTo(0, 0);
 	}
 }
