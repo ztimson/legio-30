@@ -37,8 +37,8 @@ export const NAVIGATION: NavigationGroup = [
 	]]},
 	{label: 'Reenact', children: [[
 			{label: 'Getting Started', url: '/getting-started'},
-			{label: 'Marching Drill', url: '/drill'},
 			{label: 'Rules & Regulations', url: '/rules'},
+			{label: 'Learn Drill', url: '/drill'},
 		], [
 			{label: 'Trusted Vendors', url: '/vendors'},
 			{label: 'Kit Assembly', url: '/diy'},
