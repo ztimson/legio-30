@@ -11,12 +11,14 @@ import {FourOFourComponent} from './views/404/404.component';
 import {CalendarComponent} from './views/events/calendar/calendar.component';
 import {GalleryComponent} from './views/gallery/gallery.component';
 import {HomeComponent} from './views/home/home.component';
+import {GettingStartedComponent} from './views/reenact/getting-started/getting-started.component';
 import {RulesComponent} from './views/reenact/rules/rules.component';
 
 export const APP_COMPONENTS = [
 	AppComponent,
 	BannerComponent,
 	CalendarComponent,
+	GettingStartedComponent,
 	FooterComponent,
 	FourOFourComponent,
 	GalleryComponent,
