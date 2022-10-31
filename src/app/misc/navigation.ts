@@ -11,19 +11,17 @@ export type NavigationGroup = {
 
 export const NAVIGATION: NavigationGroup = [
 	{label: 'Home', children: [[
-			{label: 'About', url: '/', fragment: 'about'},
+			{label: 'About', url: '/about'},
 			{label: 'Contact', url: '/', fragment: 'contact'},
 			{label: 'Gallery', url: '/gallery'},
 	]]},
 	{label: 'Events', children: [[
-			{label: 'Castra Aestiva', url: '/events', fragment: 'aestiva'},
-			{label: 'Castra Hiberna', url: '/events', fragment: 'hiberna'},
+			{label: 'Castra Aestiva', url: '/events/aestiva'},
+			{label: 'Castra Hiberna', url: '/events/hiberna'},
 		], [
-			{label: 'Calendar', url: '/calendar'},
+			{label: 'Calendar', url: '/events/calendar'},
 	]]},
 	{label: 'Learn', children: [[
-			{label: 'Common Questions', url: '/info/questions'},
-		], [
 			{label: 'Trajan', url: '/info/trajan'},
 			{label: 'Legio XXX', url: '/info/legio-xxx'},
 			{label: 'Legion Camp', url: '/info/camp'},
@@ -32,13 +30,15 @@ export const NAVIGATION: NavigationGroup = [
 			{label: 'Legionairy Equipment', url: '/info/equipment'},
 			{label: 'Legionairy Training', url: '/info/training'},
 		], [
+			{label: 'Common Questions', url: '/info/questions'},
 			{label: 'Glossary', url: '/info/glossary'},
 			{label: 'Resources', url: '/info/resources'},
 	]]},
 	{label: 'Reenact', children: [[
 			{label: 'Getting Started', url: '/getting-started'},
 			{label: 'Rules & Regulations', url: '/rules'},
-			{label: 'Learn Drill', url: '/drill'},
+		], [
+			{label: 'Drill Commands', url: '/drill'},
 		], [
 			{label: 'Trusted Vendors', url: '/vendors'},
 			{label: 'Kit Assembly', url: '/diy'},
