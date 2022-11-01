@@ -1,6 +1,8 @@
 # LEGIO · XXX
 Legio XXX is the website for a North American Roman re-enactment group.
 
+[View here](https://legio-30.org)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
 ## Table of Contents
