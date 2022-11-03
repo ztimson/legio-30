@@ -7,12 +7,14 @@ import {CalendarComponent} from './views/events/calendar/calendar.component';
 import {HibernaComponent} from './views/events/hiberna/hiberna.component';
 import {GalleryComponent} from './views/gallery/gallery.component';
 import {HomeComponent} from './views/home/home.component';
+import {DrillComponent} from './views/reenact/drill/drill.component';
 import {GettingStartedComponent} from './views/reenact/getting-started/getting-started.component';
 import {RulesComponent} from './views/reenact/rules/rules.component';
 
 const routes: Routes = [
 	{path: '', pathMatch: 'full', component: HomeComponent},
 	{path: 'about', component: AboutComponent},
+	{path: 'drill', component: DrillComponent},
 	{path: 'events/aestiva', component: AestivaComponent},
 	{path: 'events/hiberna', component: HibernaComponent},
 	{path: 'events/calendar', component: CalendarComponent},

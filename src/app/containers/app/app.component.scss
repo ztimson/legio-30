@@ -2,4 +2,9 @@
 	overflow-x: hidden;
 	overflow-y: auto;
 	scroll-behavior: smooth;
+
+	@media print {
+		overflow-x: inherit !important;
+		overflow-y: inherit !important;
+	}
 }
