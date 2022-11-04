@@ -2,7 +2,7 @@
 	<mat-toolbar-row>
 		<div>
 			<a class="navbar-brand d-flex align-items-center" routerLink="/" fragment="banner" (click)="scroll('banner')">
-				<img src="assets/img/eagle.png" alt="Capricorn" height="45px" width="45px">
+				<img src="assets/img/eagle.png" alt="SPQR" height="45px" width="45px">
 				<div class="px-2">LEGIO · XXX</div>
 			</a>
 		</div>
@@ -10,7 +10,7 @@
 		<div *ngIf="!hamburger">
 			<a *ngFor="let item of links.topLevel" [routerLink]="item.url" [fragment]="item.fragment"
 			   (click)="item.fragment ? scroll(item.fragment) : null">
-				<button mat-button class="navbar-button">{{item.label}}</button>
+				<button mat-button class="navbar-button" aria-label="Menu">{{item.label}}</button>
 			</a>
 			<ng-container *ngFor="let group of links.other">
 				<ng-template [ngTemplateOutlet]="navGroup" [ngTemplateOutletContext]="{'$implicit': group}"></ng-template>
