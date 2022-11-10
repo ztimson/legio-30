@@ -2,6 +2,7 @@ import {AfterViewInit, Component, EventEmitter, Input, OnDestroy, Output} from '
 import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
 import {combineLatest, filter, Subscription} from 'rxjs';
 import {NAVIGATION} from '../../misc/navigation';
+import {BreakpointService} from '../../services/breakpoint.service';
 
 @Component({
 	selector: 'xxx-navbar',
@@ -20,7 +21,7 @@ export class NavbarComponent implements AfterViewInit, OnDestroy {
 
 	@Output() hamburgerClick = new EventEmitter<void>();
 
-	constructor(private route: ActivatedRoute, private router: Router) { }
+	constructor(private route: ActivatedRoute, private router: Router, public breakpoint: BreakpointService) { }
 
 	ngAfterViewInit() {
 		this.sub = combineLatest([this.router.events.pipe(filter(e => e instanceof NavigationEnd)), this.route.fragment]).subscribe(([url, frag]) => {

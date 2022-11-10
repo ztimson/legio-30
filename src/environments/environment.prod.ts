@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+	analytics: 'G-7HLT4FQY9V',
+  	production: true
 };
