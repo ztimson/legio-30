@@ -1,12 +1,16 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { AppRouting } from './app.routing';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgxGoogleAnalyticsModule} from 'ngx-google-analytics';
+import {environment} from '../environments/environment';
+import {AppRouting} from './app.routing';
 import {BannerComponent} from './components/banner/banner.component';
 import {FooterComponent} from './components/footer/footer.component';
+import {LogoComponent} from './components/logo/logo.component';
 import {NavbarComponent} from './components/navbar/navbar.component';
-import { AppComponent } from './containers/app/app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {AppComponent} from './containers/app/app.component';
+import {BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from './material.module';
+import {PrelaodService} from './services/prelaod.service';
 import {FourOFourComponent} from './views/404/404.component';
 import {AboutComponent} from './views/about/about.component';
 import {AestivaComponent} from './views/events/aestiva/aestiva.component';
@@ -19,7 +23,7 @@ import {DrillComponent} from './views/reenact/drill/drill.component';
 import {GettingStartedComponent} from './views/reenact/getting-started/getting-started.component';
 import {RulesComponent} from './views/reenact/rules/rules.component';
 
-export const APP_COMPONENTS = [
+export const APP_COMPONENTS: any[] = [
 	AboutComponent,
 	AestivaComponent,
 	AgoniumComponent,
@@ -27,25 +31,33 @@ export const APP_COMPONENTS = [
 	BannerComponent,
 	CalendarComponent,
 	DrillComponent,
-	GettingStartedComponent,
-	HibernaComponent,
 	FooterComponent,
 	FourOFourComponent,
 	GalleryComponent,
+	GettingStartedComponent,
+	HibernaComponent,
 	HomeComponent,
+	LogoComponent,
 	NavbarComponent,
 	RulesComponent
 ]
 
+export const APP_IMPORTS: any[] = [
+	AppRouting,
+	BrowserAnimationsModule,
+	BrowserModule,
+	MaterialModule
+]
+
+if(environment.analytics && (<any>environment.analytics) != '{{ANALYTICS}}')
+	APP_IMPORTS.push(NgxGoogleAnalyticsModule.forRoot(<any>environment.analytics));
+
 @NgModule({
   declarations: APP_COMPONENTS,
-  imports: [
-	  BrowserModule,
-	  AppRouting,
-	  BrowserAnimationsModule,
-	  MaterialModule
-  ],
+  imports: APP_IMPORTS,
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+	constructor(preload: PrelaodService) { }
+}

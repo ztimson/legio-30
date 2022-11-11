@@ -17,12 +17,14 @@ COPY . .
 RUN if [ ! -d "dist" ] && [ ! -d "node_modules" ]; then npm install; fi
 
 # Build
-RUN BUILD_MODE=$([ "$NODE_ENV" = "prod" ] && echo "dynmaic-prod" || echo "dynamic") && \
+RUN BUILD_MODE=$([ "$NODE_ENV" = "prod" ] && echo "prod" || echo "dev") && \
 	if [ ! -d "dist" ]; then npm run "build:$BUILD_MODE"; fi
 
 # Use Nginx to serve
 FROM nginx:1.20-alpine
 COPY --from=build /app/dist /usr/share/nginx/html
-COPY docker/robots.txt /usr/share/nginx/html/robots.txt
-COPY docker/nginx.conf /etc/nginx/nginx.conf
+COPY docker/config/robots.txt /usr/share/nginx/html/robots.txt
+COPY docker/config/nginx.conf /etc/nginx/nginx.conf
+COPY docker/scripts/setup-environment.sh /docker-entrypoint.d/setup-environment.sh
+RUN chmod +x /docker-entrypoint.d/setup-environment.sh
 EXPOSE 80

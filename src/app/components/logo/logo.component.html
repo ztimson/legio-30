@@ -1,0 +1,9 @@
+<div class="logo">
+	<div class="d-flex" aria-label="Legio XXX">
+		<div>L</div>
+		<div [@slide]="expand ? 'expand' : 'shrink'" style="overflow: hidden">EGIO · </div>
+		<div [@margin]="expand ? 'expand' : 'shrink'" [style.marginLeft]="expand ? '0.25rem' : 0">XXX</div>
+		<div *ngIf="loading">{{dots | async}}</div>
+	</div>
+    <div *ngIf="loadingText" class="logo-footer text-center">{{loadingText}}</div>
+</div>

@@ -14,16 +14,16 @@ import {RulesComponent} from './views/reenact/rules/rules.component';
 
 const routes: Routes = [
 	{path: '', pathMatch: 'full', component: HomeComponent},
-	{path: 'about', component: AboutComponent},
-	{path: 'drill', component: DrillComponent},
-	{path: 'events/aestiva', component: AestivaComponent},
-	{path: 'events/agonium', component: AgoniumComponent},
-	{path: 'events/hiberna', component: HibernaComponent},
-	{path: 'events/calendar', component: CalendarComponent},
-	{path: 'gallery', component: GalleryComponent},
-	{path: 'getting-started', component: GettingStartedComponent},
-	{path: 'rules', component: RulesComponent},
-	{path: '**', component: FourOFourComponent}
+	{path: 'about', component: AboutComponent, data: {title: 'About'}},
+	{path: 'drill', component: DrillComponent, data: {title: 'Drill Commands'}},
+	{path: 'events/aestiva', component: AestivaComponent, data: {title: 'Castra Aestiva'}},
+	{path: 'events/agonium', component: AgoniumComponent, data: {title: 'Agonium'}},
+	{path: 'events/hiberna', component: HibernaComponent, data: {title: 'Castra Hiberna'}},
+	{path: 'events/calendar', component: CalendarComponent, data: {title: 'Calendar'}},
+	{path: 'gallery', component: GalleryComponent, data: {title: 'Gallery'}},
+	{path: 'getting-started', component: GettingStartedComponent, data: {title: 'Getting Started'}},
+	{path: 'rules', component: RulesComponent, data: {title: 'Rules & Regulations'}},
+	{path: '**', component: FourOFourComponent, data: {title: '404'}}
 ];
 
 @NgModule({
