@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {FourOFourComponent} from './views/404/404.component';
 import {AboutComponent} from './views/about/about.component';
 import {AestivaComponent} from './views/events/aestiva/aestiva.component';
+import {AgoniumComponent} from './views/events/agonium/agonium.component';
 import {CalendarComponent} from './views/events/calendar/calendar.component';
 import {HibernaComponent} from './views/events/hiberna/hiberna.component';
 import {GalleryComponent} from './views/gallery/gallery.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
 	{path: 'about', component: AboutComponent},
 	{path: 'drill', component: DrillComponent},
 	{path: 'events/aestiva', component: AestivaComponent},
+	{path: 'events/agonium', component: AgoniumComponent},
 	{path: 'events/hiberna', component: HibernaComponent},
 	{path: 'events/calendar', component: CalendarComponent},
 	{path: 'gallery', component: GalleryComponent},
