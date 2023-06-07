@@ -58,8 +58,8 @@ registry:
       policy: pull
   before_script:
     - docker login -u $CI_REGISTRY_USER -p $CI_JOB_TOKEN $CI_REGISTRY
-  script:
     - TAG=$([ "$CI_COMMIT_BRANCH" = "$CI_DEFAULT_BRANCH" ] && echo "latest" || echo "$CI_COMMIT_BRANCH" | sed -E "s/[_/]/-/g")
+  script:
     - docker build --no-cache -t "$CI_REGISTRY_IMAGE:$TAG" .
     - docker push "$CI_REGISTRY_IMAGE:$TAG"
   allow_failure: true
@@ -74,24 +74,28 @@ tag:
   cache: []
   before_script:
     - git remote set-url origin "https://ReleaseBot:$DEPLOY_TOKEN@$CI_SERVER_HOST/$CI_PROJECT_PATH.git"
-  script:
     - VERSION=$(cat package.json | grep version | grep -Eo ':.+' | grep -Eo '[[:alnum:]\.\/\-]+')
+  script:
     - git tag -f $VERSION $CI_COMMIT_SHA
     - git push -f origin $VERSION
   allow_failure: true
   rules:
     - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
 
-swarm:
+production:
   stage: deploy
   image: docker
   cache: []
   variables:
     SERVICE_NAME: legio-xxx_web
+  before_script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_JOB_TOKEN $CI_REGISTRY
+    - TAG=$([ "$CI_COMMIT_BRANCH" = "$CI_DEFAULT_BRANCH" ] && echo "latest" || echo "$CI_COMMIT_BRANCH" | sed -E "s/[_/]/-/g")
   script:
-    - SCALE=$(docker service inspect "$SERVICE_NAME" | grep -m 1 Replicas | grep -oE "[0-9]")
-    - docker service update --force --with-registry-auth --image "$CI_REGISTRY_IMAGE:latest" "$SERVICE_NAME" || echo "Continuing in background"
-    - docker service scale "$SERVICE_NAME=0" && docker service scale "$SERVICE_NAME=$SCALE"
+    - docker pull "$CI_REGISTRY_IMAGE:$TAG"
+    - docker service update --force --with-registry-auth --image "$CI_REGISTRY_IMAGE:$TAG" "$SERVICE_NAME" || echo "Continuing in background"
   allow_failure: true
   rules:
     - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+
+
