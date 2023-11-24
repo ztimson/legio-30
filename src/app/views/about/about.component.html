@@ -2,7 +2,13 @@
 	<div class="banner d-print-none"></div>
 	<div class="container py-4 px-3">
 		<div>
-			<h1 class="mb-2">About</h1>
+			<div class="d-flex align-items-end justify-content-between mb-2">
+				<h1 class="mb-0">About</h1>
+				<a class="d-flex d-print-none justify-content-center text-muted" href="javascript:window.print()">
+					<mat-icon class="me-1">print</mat-icon>
+					Print
+				</a>
+			</div>
 			<mat-divider class="mb-4"></mat-divider>
 			<div>
 				<h2 class="mb-2">Legio XXX</h2>
@@ -12,7 +18,7 @@
 					Over the years, they have participated in a wide range of events.
 				</p>
 				<h3 class="mb-2">Events</h3>
-				<div class="d-flex flex-wrap">
+				<div class="d-flex flex-column flex-wrap">
 					<div class="mx-3">
 						<h4 class="mb-2">Film Shoots & Commercials</h4>
 						<ul class="mt-0">
@@ -29,6 +35,7 @@
 							<li>Canadian Museum of History (formerly the Museum of Civilization), Gatineau PQ (2005)</li>
 							<li>Royal Ontario Museum, Toronto ON (2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019)</li>
 							<li>RCR Museum, Wolseley Barracks, London ON (2019)</li>
+							<li>Ontario Regiment RCAC Museum (2013)</li>
 						</ul>
 					</div>
 					<div class="mx-3">
@@ -37,7 +44,8 @@
 							<li>Montessori School, Hamilton ON (2012)</li>
 							<li>Our Lady of Mount Carmel Academy (2016)</li>
 							<li>John Chrysostom Catholic Elementary School (2017)</li>
-							<li>Saunders Secondary School, London ON (2017, 2019)</li>
+							<li>Saunders Secondary School, London ON (2017, 2019, 2022, 2023)</li>
+							<li>Toronto Waldorf School, Thornhill ON (2023)</li>
 						</ul>
 					</div>
 					<div class="mx-3">
@@ -51,7 +59,7 @@
 						</ul>
 					</div>
 					<div class="mx-3">
-						<h4 class="mb-2">Re-enactment Events</h4>
+						<h4 class="mb-2">Re-enactments</h4>
 						<ul class="mt-0">
 							<li>Fort Malden, Amherstburg ON (2004, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2015, 2016)</li>
 							<li>Roman Market Days (2004)</li>
@@ -66,7 +74,7 @@
 						</ul>
 					</div>
 				</div>
-				<h2 class="mb-2">Castrum</h2>
+				<h3 class="mb-2">Castrum</h3>
 				<p>Legio XXX has a re-enactment facility near Tillsonburg Ontario, graciously provided by Tom Ross. Over the years, the group has constructed it's own <em>castrum</em> (fort) nestled amidst farmland and forest.</p>
 				<p class="mb-2">The <em>castrum</em> (fort) was slowly constructed over several years & is a work in progress:</p>
 				<ul class="mt-0">
@@ -84,9 +92,9 @@
 				</ul>
 				<h2>Special Thanks</h2>
 				<p>Robert Sacco - <em>Aquilifer</em> (Eagle bearer) & Legio XXX's president</p>
-				<p>David Blain - <em>Tribunus angusticlavius</em> (staff officer) & subject matter expert, providing much of this site's content</p>
-				<p>Tom Ross - Legio XXX's <em>patronus</em> (patron) providing re-enactment facilities near Tillsonburg Ontario</p>
-				<p>Robert Norton - <em>Armicustos</em> (Quartermaster) & provider of most of our <a routerLink="/diy">manuals</a></p>
+				<p>Tom Ross - Legio XXX's <em>patronus</em> (patron) providing re-enactment facilities for Castra</p>
+				<p>David Blain - <em>Tribunus angusticlavius</em> (staff officer) & subject matter expert</p>
+				<p>Robert Norton - <em>Armicustos</em> (Quartermaster) who provides equipment, repairs & <a routerLink="/diy">manuals</a></p>
 			</div>
 		</div>
 	</div>

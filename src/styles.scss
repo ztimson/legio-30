@@ -48,15 +48,18 @@ body {
 }
 
 a, a:visited {
+	color: #b10000;
 	text-decoration: none;
-	color: rgba(255, 255, 255, 0.6);
 }
-a:hover, a:visited:hover { color: #b10000; }
+a:hover {
+	color: #b10000;
+	text-decoration: underline;
+}
 
 h3 { font: 400 18px / 30px Roboto, "Helvetica Neue", sans-serif !important; }
 
 .container {
-	max-width: 800px;
+	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -65,23 +68,23 @@ h3 { font: 400 18px / 30px Roboto, "Helvetica Neue", sans-serif !important; }
 	background: #fff;
 	color: #000;
 
-	a, a:visited {
-		text-decoration: none;
-		color: #b10000;
-	}
-	a:hover, a:visited:hover { color: #cc0000; }
-
 	mat-divider {
 		border-color: rgba(0, 0, 0, 0.4);
 	}
 }
 
-.fill {
-	height: 0;
-	min-height: calc(100vh - 64px);
+@media screen {
+	.fill {
+		height: 0;
+		min-height: calc(100vh - 64px);
+	}
 }
 
 .transparent-link {
 	a, a:visited { color: #fff; }
 	a:hover, a:visited:hover { color: rgba(255, 255, 255, 0.8); }
+}
+
+ol {
+	list-style-type: upper-roman;
 }

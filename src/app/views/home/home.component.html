@@ -3,21 +3,24 @@
 	<xxx-banner></xxx-banner>
 </header>
 <!-- ABout -->
-<section id="about" class="d-flex flex-column flex-md-row align-items-center justify-content-center bg-black text-white fill py-5 py-md-0">
+<section id="about" class="d-flex flex-column flex-md-row align-items-center justify-content-center bg-black fill py-5 py-md-0">
 	<div class="d-none d-md-inline flex-grow-1 text-end" style="flex-basis: 0">
 		<img src="/assets/img/trajan.png" alt="Statue of Trajan" height="450px" width="auto">
 	</div>
 	<div class="flex-grow-0 text-center px-5">
-		<h1>About</h1>
-		<h2>Legio XXX - Vlpia Victrix</h2>
-		<h3 class="mb-4">(Trajan's Victorious Thirtieth Legion)</h3>
-		<p>
-			Legio XXX is a North American Roman reenactment group established in 2004.
-			<br><br>
-			It's members represent a cross between living history enthusiasts and "edu-tainers"
-			<br><br>
-			that recreate the lives of soldiers found in Trajan's legions during the 1st - 2nd Century AD
-		</p>
+		<div class="text-white">
+			<h1>About</h1>
+			<h2>Legio XXX - Vlpia Victrix</h2>
+			<h3 class="mb-4">(Trajan's Victorious Thirtieth Legion)</h3>
+			<p>
+				Legio XXX is a North American Roman reenactment group established in 2004.
+				<br><br>
+				It's members represent a cross between living history enthusiasts and "edu-tainers"
+				<br><br>
+				that recreate the lives of soldiers found in Trajan's legions during the 1st - 2nd Century AD
+			</p>
+		</div>
+		<a routerLink="/about">More</a>
 	</div>
 	<div class="flex-md-grow-1" style="flex-basis: 0">
 		<img class="mt-5" src="/assets/img/standard.png" alt="Legio XXX Standard" height="250px" width="auto">
@@ -71,40 +74,55 @@
 </section>
 <!-- Contact -->
 <section id="contact" class="d-flex flex-column align-items-center justify-content-center fill">
-	<div style="width: 80%; max-width: 600px;">
+	<div>
 		<h2 class="text-center">Contact</h2>
-		<form>
-			<div>
-				<mat-form-field appearance="fill" class="w-100">
-					<mat-label>Email</mat-label>
-					<input matInput>
-				</mat-form-field>
-			</div>
-			<div>
-				<mat-form-field appearance="fill" class="w-100">
-					<mat-label>Subject</mat-label>
-					<mat-select>
-						<mat-option value="castra">Castra Aestiva/Hiberna</mat-option>
-						<mat-option value="host">Host Legio XXX</mat-option>
-						<mat-option value="reenacting">Reenacting</mat-option>
-						<mat-option value="other">Other</mat-option>
-					</mat-select>
-				</mat-form-field>
-			</div>
-			<div>
-				<mat-form-field appearance="fill" class="w-100">
-					<mat-label>Message</mat-label>
-					<textarea matInput rows="8"></textarea>
-				</mat-form-field>
-			</div>
-			<div class="d-flex justify-content-between align-items-center">
+		<div class="d-flex flex-row">
+			<form class="pe-3" style="width: min(100%, 600px)">
 				<div>
-					<mat-checkbox color="primary">Send me a copy</mat-checkbox>
+					<mat-form-field appearance="fill" class="w-100">
+						<mat-label>Email</mat-label>
+						<input matInput>
+					</mat-form-field>
 				</div>
 				<div>
-					<button mat-raised-button color="primary">Send</button>
+					<mat-form-field appearance="fill" class="w-100">
+						<mat-label>Subject</mat-label>
+						<mat-select [(value)]="contact">
+							<mat-option value="general">General Inquiry</mat-option>
+							<mat-option value="castra">Castra Event</mat-option>
+						</mat-select>
+					</mat-form-field>
+				</div>
+				<div>
+					<mat-form-field appearance="fill" class="w-100">
+						<mat-label>Message</mat-label>
+						<textarea matInput rows="8"></textarea>
+					</mat-form-field>
+				</div>
+				<div class="d-flex justify-content-between align-items-center">
+					<div>
+						<mat-checkbox color="primary">Send me a copy</mat-checkbox>
+					</div>
+					<div>
+						<button mat-raised-button color="primary">Send</button>
+					</div>
+				</div>
+			</form>
+			<mat-divider vertical></mat-divider>
+			<div class="d-flex flex-column justify-content-center ps-3" style="width: min(100%, 600px)">
+				<div *ngIf="contact == 'general'">
+					<h3>Robert Sacco</h3>
+					<h4 class="mb-0">Legio XXX President</h4>
+					<h5>Portrays: Aquilifer Primus Marius Maximus</h5>
+					<a href="mailto:sacco.c.r@bell.net">sacco.c.r@bell.net</a>
+				</div>
+				<div *ngIf="contact == 'castra'">
+					<h3>Tom Ross</h3>
+					<h4 class="mb-0">Legio XXX <em>Patronus</em> (Patron)</h4>
+					<h5>Portrays: Titus Quartinius Saturnalus</h5>
+					<a href="mailto:tomlongwoods@gmail.com">tomlongwoods@gmail.com</a>
 				</div>
 			</div>
-		</form>
+		</div>
 	</div>
 </section>
