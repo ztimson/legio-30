@@ -26,10 +26,12 @@ jobs:
                   name: website
                   path: dist
                   retention-days: 7
+
     tag:
         name: Tag Version
         needs: build
         runs-on: ubuntu-latest
+        container: node
         steps:
             - name: Clone Repository
               uses: ztimson/actions/clone@develop
