@@ -1,49 +1,95 @@
-# LEGIO · XXX
-Legio XXX is the website for a North American Roman re-enactment group.
+<!-- Header -->
+<div id="top" align="center">
+  <br />
 
-[View here](https://legio-30.org)
+  <!-- Logo -->
+  <img src="./src/assets/img/eagle.png" alt="Logo" width="200" height="200">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
+  <!-- Title -->
+  ### Legio • XXX
+
+  <!-- Description -->
+  Roman Re-Enactment Website
+
+  <!-- Repo badges -->
+  [![Version](https://img.shields.io/badge/dynamic/json.svg?label=Version&style=for-the-badge&url=https://git.zakscode.com/api/v1/repos/ztimson/legio-30/tags&query=$[0].name)](https://git.zakscode.com/ztimson/legio-30/tags)
+  [![Pull Requests](https://img.shields.io/badge/dynamic/json.svg?label=Pull%20Requests&style=for-the-badge&url=https://git.zakscode.com/api/v1/repos/ztimson/legio-30&query=open_pr_counter)](https://git.zakscode.com/ztimson/legio-30/pulls)
+  [![Issues](https://img.shields.io/badge/dynamic/json.svg?label=Issues&style=for-the-badge&url=https://git.zakscode.com/api/v1/repos/ztimson/legio-30&query=open_issues_count)](https://git.zakscode.com/ztimson/legio-30/issues)
+
+  <!-- Links -->
+
+  ---
+  <div>
+    <a href="https://git.zakscode.com/ztimson/legio-30/releases" target="_blank">Release Notes</a>
+    • <a href="https://git.zakscode.com/ztimson/legio-30/issues/new?template=.github%2fissue_template%2fbug.md" target="_blank">Report a Bug</a>
+    • <a href="https://git.zakscode.com/ztimson/legio-30/issues/new?template=.github%2fissue_template%2fenhancement.md" target="_blank">Request a Feature</a>
+  </div>
+
+  ---
+</div>
 
 ## Table of Contents
-[[_TOC_]]
+- [Legio • XXX](#top)
+	- [About](#about)
+        - [Demo](#demo)
+		- [Built With](#built-with)
+	- [Setup](#setup)
+        - [Production](#production)
+		- [Development](#development)
+	- [License](#license)
 
-## Prerequisites
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [NodeJS 16](https://nodejs.org/en/)
-- _[Docker](https://docs.docker.com/install/) (Optional)_
+## About
+
+Legio XXX is a non-profit re-enactment group from southern Ontario & the north-eastern USA. It was established in 2004 with the goal of portraying all aspects of Roman military & civilian life.
+
+This website was built to help educate the public and advertise events.
+
+The website was written using Angular.
+
+### Demo
+
+Website: https://legio-30.org
+
+### Built With
+[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular)](https://angular.io/)
+[![Docker](https://img.shields.io/badge/Docker-384d54?style=for-the-badge&logo=docker)](https://docker.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org/)
 
 ## Setup
-The project can either be run using NPM or Docker. NPM is recommended for development.
-<details>
-<summary>NPM</summary>
 
+<details>
+<summary>
+  <h3 id="production" style="display: inline">
+    Production
+  </h3>
+</summary>
+
+#### Prerequisites
+- [Docker](https://docs.docker.com/install/)
+
+#### Instructions
+1. Run the docker image: `docker run -p 80:80 git.zakscode.com/ztimson/template:latest`
+2. Open [http://localhost](http://localhost)
+</details>
+
+<details>
+<summary>
+  <h3 id="development" style="display: inline">
+    Development
+  </h3>
+</summary>
+
+#### Prerequisites
+- [Node.js](https://nodejs.org/en/download)
+
+#### Instructions
 1. Install the dependencies: `npm install`
 2. Start the Angular server: `npm run start`
-</details>
-
-<details>
-<summary>Docker</summary>
-
-1. Build the docker image: `docker build -t legio-xxx:<TAG> .`
-2. Start the new image: `docker run -p 4200:80 legio-xxx:<TAG>`
+3. Open [http://localhost:4200](http://localhost:4200)
 
 </details>
 
-The website should now be accessible on [http://localhost:4200](http://localhost:4200)
+## License
+Copyright © 2023 Zakary Timson | All Rights Reserved
 
-## Cheatsheet
-```bash
-# Start Angular server
-npm run start
-
-# Build production
-npm run build:prod
-
-# Build docker image
-docker build -t legio-xxx:<TAG>
-
-# Run docker image
-docker run -p 4200:80 legio-xxx:<TAG>
-```
-
+See the [license](./LICENSE) for more information.
