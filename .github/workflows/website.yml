@@ -30,6 +30,7 @@ jobs:
         name: Tag Version
         needs: build
         runs-on: ubuntu-latest
+        container: node
         steps:
             - name: Clone Repository
               uses: ztimson/actions/clone@develop
@@ -42,7 +43,6 @@ jobs:
         needs: build
         uses: ztimson/actions/.github/workflows/docker.yaml@develop
         with:
-            dockerfile: website/Dockerfile
-            name: phone-reminders/website
+            name: ztimson/legio30
             repository: ${{github.server_url}}/${{github.repository}}.git
             pass: ${{secrets.DEPLOY_TOKEN}}
