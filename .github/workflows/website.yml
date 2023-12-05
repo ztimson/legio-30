@@ -30,19 +30,23 @@ jobs:
         name: Tag Version
         needs: build
         runs-on: ubuntu-latest
-        container: node
         steps:
             - name: Clone Repository
               uses: ztimson/actions/clone@develop
 
+            - name: Get Version Number
+              run: echo "VERSION=$(cat package.json | grep version | grep -Eo ':.+' | grep -Eo '[[:alnum:]\.\/\-]+')" >> $GITHUB_ENV
+
             - name: Tag Version
               uses: ztimson/actions/tag@develop
+              with:
+                  tag: ${{env.VERSION}}
 
     publish:
         name: Build & Push Dockerfile
         needs: build
         uses: ztimson/actions/.github/workflows/docker.yaml@develop
         with:
-            name: ztimson/legio30
+            name: ztimson/legio-30
             repository: ${{github.server_url}}/${{github.repository}}.git
             pass: ${{secrets.DEPLOY_TOKEN}}
