@@ -40,7 +40,7 @@
 
 ## About
 
-Legio XXX is a non-profit re-enactment group from southern Ontario & the north-eastern USA. It was established in 2004 with the goal of portraying all aspects of Roman military & civilian life.
+Legio XXX is a non-profit re-enactment group from southern Ontario & the north-eastern USA.
 
 This website was built to help educate the public and advertise events.
 
