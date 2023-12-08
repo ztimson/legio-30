@@ -68,7 +68,7 @@ Website: https://legio-30.org
 - [Docker](https://docs.docker.com/install/)
 
 #### Instructions
-1. Run the docker image: `docker run -p 80:80 git.zakscode.com/ztimson/template:latest`
+1. Run the docker image: `docker run -p 80:80 git.zakscode.com/ztimson/legio-30:latest`
 2. Open [http://localhost](http://localhost)
 </details>
 
