@@ -7,36 +7,51 @@
 			</a>
 		</div>
 		<div class="flex-grow-1"></div>
+		<!-- Full NavBar -->
 		<div *ngIf="!hamburger">
 			<a *ngFor="let item of links.topLevel" [routerLink]="item.url" [fragment]="item.fragment"
 			   (click)="item.fragment ? scroll(item.fragment) : null">
 				<button mat-button class="navbar-button" aria-label="Menu">{{item.label}}</button>
 			</a>
 			<ng-container *ngFor="let group of links.other">
-				<ng-template [ngTemplateOutlet]="navGroup" [ngTemplateOutletContext]="{'$implicit': group}"></ng-template>
+				<button mat-button [matMenuTriggerFor]="menu" class="navbar-button">
+					{{group.label}} <mat-icon>expand_more</mat-icon>
+				</button>
+				<mat-menu #menu="matMenu">
+					<ng-container *ngFor="let section of group.children; let first = first">
+						<mat-divider *ngIf="!first"></mat-divider>
+						<button *ngFor="let item of section" mat-menu-item [routerLink]="item.url" [fragment]="item.fragment"
+						        (click)="item.fragment ? scroll(item.fragment) : null">
+							{{item.label}}
+						</button>
+					</ng-container>
+				</mat-menu>
 			</ng-container>
-<!--			<a href="#">-->
-<!--				<button mat-button class="navbar-button">Donate</button>-->
-<!--			</a>-->
 		</div>
-		<button *ngIf="hamburger" mat-icon-button class="mr-3">
-			<mat-icon (click)="hamburgerClick.emit()">menu</mat-icon>
+		<!-- Mobile NavBar -->
+		<button *ngIf="hamburger" mat-icon-button class="text-start" [matMenuTriggerFor]="menu">
+			<mat-icon>menu</mat-icon>
 		</button>
+		<mat-menu #menu="matMenu">
+			<button mat-menu-item *ngFor="let item of links.topLevel" [routerLink]="item.url" [fragment]="item.fragment"
+			   (click)="item.fragment ? scroll(item.fragment) : null">{{item.label}}</button>
+			<ng-container *ngFor="let group of links.other">
+				<button mat-menu-item [matMenuTriggerFor]="menu">{{group.label}}</button>
+				<mat-menu #menu="matMenu">
+					<ng-container *ngFor="let section of group.children; let first = first">
+						<mat-divider *ngIf="!first"></mat-divider>
+						<button *ngFor="let item of section" mat-menu-item [routerLink]="item.url" [fragment]="item.fragment"
+						        (click)="item.fragment ? scroll(item.fragment) : null">
+							{{item.label}}
+						</button>
+					</ng-container>
+				</mat-menu>
+			</ng-container>
+		</mat-menu>
 	</mat-toolbar-row>
 </mat-toolbar>
 <div class="navbar-spacing"><!-- Spacing --></div>
 
 <ng-template #navGroup let-group>
-	<button mat-button [matMenuTriggerFor]="menu" class="navbar-button">
-		{{group.label}} <mat-icon>expand_more</mat-icon>
-	</button>
-	<mat-menu #menu="matMenu">
-		<ng-container *ngFor="let section of group.children; let first = first">
-			<mat-divider *ngIf="!first"></mat-divider>
-			<button *ngFor="let item of section" mat-menu-item [routerLink]="item.url" [fragment]="item.fragment"
-				        (click)="item.fragment ? scroll(item.fragment) : null">
-				{{item.label}}
-			</button>
-		</ng-container>
-	</mat-menu>
+
 </ng-template>
