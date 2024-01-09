@@ -7,5 +7,6 @@ import {NAVIGATION} from '../../misc/navigation';
 	styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+	contact: string = '';
 	navigation = NAVIGATION;
 }

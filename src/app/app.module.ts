@@ -21,6 +21,7 @@ import {GalleryComponent} from './views/gallery/gallery.component';
 import {HomeComponent} from './views/home/home.component';
 import {DrillComponent} from './views/reenact/drill/drill.component';
 import {GettingStartedComponent} from './views/reenact/getting-started/getting-started.component';
+import {MaintenanceComponent} from './views/reenact/maintinance/maintenance.component';
 import {RulesComponent} from './views/reenact/rules/rules.component';
 
 export const APP_COMPONENTS: any[] = [
@@ -38,6 +39,7 @@ export const APP_COMPONENTS: any[] = [
 	HibernaComponent,
 	HomeComponent,
 	LogoComponent,
+	MaintenanceComponent,
 	NavbarComponent,
 	RulesComponent
 ]
