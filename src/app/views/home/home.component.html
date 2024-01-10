@@ -75,54 +75,7 @@
 <!-- Contact -->
 <section id="contact" class="d-flex flex-column align-items-center justify-content-center fill">
 	<div class="container">
-		<h2 class="text-center">Contact</h2>
-		<div class="d-flex flex-row">
-			<form class="pe-3" style="width: min(100%, 600px)">
-				<div>
-					<mat-form-field appearance="fill" class="w-100">
-						<mat-label>Email</mat-label>
-						<input matInput>
-					</mat-form-field>
-				</div>
-				<div>
-					<mat-form-field appearance="fill" class="w-100">
-						<mat-label>Subject</mat-label>
-						<mat-select [(value)]="contact">
-							<mat-option value="general">General Inquiry</mat-option>
-							<mat-option value="castra">Castra Event</mat-option>
-						</mat-select>
-					</mat-form-field>
-				</div>
-				<div>
-					<mat-form-field appearance="fill" class="w-100">
-						<mat-label>Message</mat-label>
-						<textarea matInput rows="8"></textarea>
-					</mat-form-field>
-				</div>
-				<div class="d-flex justify-content-between align-items-center">
-					<div>
-						<mat-checkbox color="primary">Send me a copy</mat-checkbox>
-					</div>
-					<div>
-						<button mat-raised-button color="primary">Send</button>
-					</div>
-				</div>
-			</form>
-			<mat-divider vertical></mat-divider>
-			<div class="d-flex flex-column justify-content-center ps-3" style="width: min(100%, 600px)">
-				<div *ngIf="contact == 'general'">
-					<h3>Robert Sacco</h3>
-					<h4 class="mb-0">Legio XXX President</h4>
-					<h5>Portrays: Aquilifer Primus Marius Maximus</h5>
-					<a href="mailto:sacco.c.r@bell.net">sacco.c.r@bell.net</a>
-				</div>
-				<div *ngIf="contact == 'castra'">
-					<h3>Tom Ross</h3>
-					<h4 class="mb-0">Legio XXX <em>Patronus</em> (Patron)</h4>
-					<h5>Portrays: Titus Quartinius Saturnalus</h5>
-					<a href="mailto:tomlongwoods@gmail.com">tomlongwoods@gmail.com</a>
-				</div>
-			</div>
-		</div>
+		<h2 class="text-center mb-5">Contact</h2>
+		<app-contact></app-contact>
 	</div>
 </section>
