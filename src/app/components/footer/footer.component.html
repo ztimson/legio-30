@@ -20,16 +20,24 @@
 		</div>
 		<h3 class="mt-4 mb-0">so we can invade your feed ⚔️</h3>
 	</div>
-	<div style="background: #333">
-		<div class="mx-auto d-flex justify-content-center flex-wrap text-center text-sm-start">
-			<div *ngFor="let group of navigation" class="m-3" style="min-width: 175px">
+	<div class="bg-dark text-center text=sm=start">
+		<div class="d-flex flex-column flex-sm-row flex-wrap justify-content-around container p-3">
+			<div *ngFor="let group of navigation">
 				<h2 class="sitemap-header">{{group.label}}</h2>
-				<ul class="m-0">
+				<ul>
 					<ng-container *ngFor="let section of group.children">
 						<li *ngFor="let item of section">
 							<a [routerLink]="item.url" [fragment]="item.fragment">{{item.label}}</a>
 						</li>
 					</ng-container>
+				</ul>
+			</div>
+			<div>
+				<h2 class="sitemap-header">Contact</h2>
+				<ul>
+					<li class="font-weight-strong">Robert Sacco</li>
+					<li>Legio XXX President</li>
+					<li>Email: <a href="mailto:sacco.c.r@bell.net" target="_blank">sacco.c.r@bell.net</a></li>
 				</ul>
 			</div>
 		</div>

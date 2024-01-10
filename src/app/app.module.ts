@@ -4,6 +4,7 @@ import {NgxGoogleAnalyticsModule} from 'ngx-google-analytics';
 import {environment} from '../environments/environment';
 import {AppRouting} from './app.routing';
 import {BannerComponent} from './components/banner/banner.component';
+import {ContactComponent} from './components/contact/contact.component';
 import {FooterComponent} from './components/footer/footer.component';
 import {LogoComponent} from './components/logo/logo.component';
 import {NavbarComponent} from './components/navbar/navbar.component';
@@ -31,6 +32,7 @@ export const APP_COMPONENTS: any[] = [
 	AppComponent,
 	BannerComponent,
 	CalendarComponent,
+	ContactComponent,
 	DrillComponent,
 	FooterComponent,
 	FourOFourComponent,
