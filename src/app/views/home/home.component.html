@@ -3,7 +3,7 @@
 	<xxx-banner></xxx-banner>
 </header>
 <!-- ABout -->
-<section id="about" class="d-flex flex-column flex-md-row align-items-center justify-content-center bg-black fill py-5 py-md-0">
+<section id="about" class="d-flex flex-column flex-md-row align-items-center justify-content-center" style="padding: 10rem 0">
 	<div class="d-none d-md-inline flex-grow-1 text-end" style="flex-basis: 0">
 		<img src="/assets/img/trajan.png" alt="Statue of Trajan" height="450px" width="auto">
 	</div>
@@ -48,8 +48,56 @@
 		</div>
 	</div>
 </section>
+<!-- Resources -->
+<section id="resources" class="d-flex flex-column flex-md-row align-items-center justify-content-center invert" style="padding: 10rem 0">
+	<div class="py-5 container">
+		<h2 class="mb-5 text-center">Resources</h2>
+		<div class="d-flex justify-content-around flex-wrap">
+			<div class="d-flex p-3 pe-4 rounded-1 bg-light m-3 align-items-center" style="min-width: 45%; flex: 1 0 0;">
+				<div class="pe-3">
+					<img src="/assets/img/capricorn.png" alt="Regulations" style="height: 80px; width: auto">
+				</div>
+				<div>
+					<h3 class="mb-1">Legio XXX</h3>
+					<p class="m-0">Learn about Legio XXX, who we are & what we do</p>
+					<a routerLink="/events/calendar">About Us</a> / <a routerLink="/events/castra-aestiva">Gallery</a> / <a routerLink="/events/castra-hiberna">Contact</a>
+				</div>
+			</div>
+			<div class="d-flex p-3 pe-4 rounded-1 bg-light m-3 align-items-center" style="min-width: 45%; flex: 1 0 0;">
+				<div class="pe-3">
+					<img src="/assets/img/event.png" alt="Border icon" style="height: 80px; width: auto">
+				</div>
+				<div>
+					<h3 class="mb-1">Events</h3>
+					<p class="m-0">See our upcoming events & learn how you can participate</p>
+					<a routerLink="/events/calendar">Calendar</a> / <a routerLink="/events/castra-aestiva">Castra Aestiva</a> / <a routerLink="/events/castra-hiberna">Castra Hiberna</a>
+				</div>
+			</div>
+			<div class="d-flex p-3 pe-4 rounded-1 bg-light m-3 align-items-center" style="min-width: 45%; flex: 1 0 0;">
+				<div class="pe-3">
+					<img src="/assets/img/reenact.png" alt="Canadian leaf" style="height: 80px; width: auto">
+				</div>
+				<div>
+					<h3 class="mb-1">Reenacting</h3>
+					<p class="m-0">Learn about re-enacting and how you can get involved</p>
+					<a routerLink="/events/calendar">Getting Started</a> / <a routerLink="/events/castra-aestiva">Rules & Regulations</a> / <a routerLink="/events/castra-hiberna">Drill Commands</a>
+				</div>
+			</div>
+			<div class="d-flex p-3 pe-4 rounded-1 bg-light m-3 align-items-center" style="min-width: 45%; flex: 1 0 0;">
+				<div class="pe-3">
+					<img src="/assets/img/helmet.png" alt="Regulations" style="height: 80px; width: auto">
+				</div>
+				<div>
+					<h3 class="mb-1">Equipment</h3>
+					<p class="m-0">Learn how to assemble & maintain your kit</p>
+					<a routerLink="/events/calendar">Buy Equipment</a> / <a routerLink="/events/castra-aestiva">Build Equipment</a> / <a routerLink="/events/castra-hiberna">Maintenance</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <!-- Recruitment -->
-<section id="recruitment" class="d-flex flex-column flex-md-row align-items-center justify-content-center fill invert">
+<section id="recruitment" class="d-flex flex-column flex-md-row align-items-center justify-content-center invert" style="padding: 10rem 0">
 	<div class="flex-grow-1 mt-5 mt-md-0 p-5 pb-0 text-center text-md-end" style="flex-basis: 0">
 		<img src="/assets/img/recruitment.png" alt="I want you for Legio XXX" style="max-width: min(90%, 400px)">
 	</div>
@@ -73,7 +121,7 @@
 	<div style="height: 300px; background: 0 url('/assets/img/formation.png') repeat-x; background-size: auto 300px;"></div>
 </section>
 <!-- Contact -->
-<section id="contact" class="d-flex flex-column align-items-center justify-content-center fill">
+<section id="contact" class="d-flex flex-column align-items-center justify-content-center" style="padding: 10rem 0">
 	<div class="container">
 		<h2 class="text-center mb-5">Contact</h2>
 		<app-contact></app-contact>

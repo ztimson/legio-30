@@ -1,4 +1,5 @@
 import {NgModule} from '@angular/core';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {BrowserModule} from '@angular/platform-browser';
 import {NgxGoogleAnalyticsModule} from 'ngx-google-analytics';
 import {environment} from '../environments/environment';
@@ -50,6 +51,7 @@ export const APP_IMPORTS: any[] = [
 	AppRouting,
 	BrowserAnimationsModule,
 	BrowserModule,
+	ReactiveFormsModule,
 	MaterialModule
 ]
 
