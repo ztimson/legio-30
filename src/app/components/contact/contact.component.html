@@ -13,7 +13,7 @@
 			<div>
 				<mat-form-field appearance="fill" class="w-100">
 					<mat-label>Subject</mat-label>
-					<mat-select [(value)]="contact" formControlName="subject">
+					<mat-select formControlName="subject">
 						<mat-option value="General">General Inquiry</mat-option>
 						<mat-option value="Castra">Castra Event</mat-option>
 					</mat-select>
@@ -41,13 +41,13 @@
 		<div class="d-none d-md-block mx-4 border-end border-dark" style="height: 100%; width: 1px;"></div>
 	</div>
 	<div class="d-flex flex-column text-center text-md-start align-self-center" style="width: min(100%, 250px)">
-		<div *ngIf="contact != 'castra'">
+		<div *ngIf="form.controls['subject'].value != 'Castra'">
 			<h3>Robert Sacco</h3>
 			<h4 class="mb-0">Legio XXX President</h4>
 			<h5>Portrays: Aquilifer Primus Marius Maximus</h5>
 			<a href="mailto:sacco.c.r@bell.net">sacco.c.r@bell.net</a>
 		</div>
-		<div *ngIf="contact == 'castra'">
+		<div *ngIf="form.controls['subject'].value == 'Castra'">
 			<h3>Tom Ross</h3>
 			<h4 class="mb-0">Legio XXX <em>Patronus</em> (Patron)</h4>
 			<h5>Portrays: Titus Quartinius Saturnalus</h5>

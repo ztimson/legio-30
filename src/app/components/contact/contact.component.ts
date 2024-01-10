@@ -6,7 +6,6 @@ import {FormBuilder, FormGroup} from '@angular/forms';
 	templateUrl: './contact.component.html'
 })
 export class ContactComponent {
-	public contact: string = '';
 	public error = false;
 	public form!: FormGroup;
 
