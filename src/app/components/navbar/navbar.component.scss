@@ -1,16 +1,7 @@
-.navbar-spacing {
-	position: relative;
-	height: 64px;
-	width: 100%;
-}
-
 ::ng-deep mat-toolbar {
 	background: #000 !important;
 	border-bottom: #fff solid 1px;
 	height: 64px;
-	position: fixed;
-	top: 0;
-	z-index: 100;
 
 	.mat-toolbar-row {
 		height: 100%;
@@ -18,7 +9,6 @@
 
 	.navbar-brand {
 		color: #fff;
-		font-weight: lighter;
 
 		&:hover img { filter: brightness(5%) sepia(75) saturate(100) hue-rotate(25deg); }
 		&:hover, &:visited:hover { color: #b10000; }

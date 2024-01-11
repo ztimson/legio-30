@@ -33,45 +33,35 @@ $LegioXXX-theme: mat.define-dark-theme((
 
 html, body {
 	height: 100%;
-}
-body {
 	background: #000;
 	color: #fff;
 	font-family: Roboto, sans-serif;
 	margin: 0;
-	overflow: hidden;
 
 	@media print {
 		background: #fff !important;
-		overflow: visible !important;
 	}
 }
 
 a, a:visited {
 	color: #b10000;
 	text-decoration: none;
-}
-a:hover {
-	color: #b10000;
-	text-decoration: underline;
+
+	&:hover {
+		color: #b10000;
+		text-decoration: underline;
+	}
 }
 
-h3 { font: 400 18px / 30px Roboto, "Helvetica Neue", sans-serif !important; }
+.transparent-link {
+	a, a:visited { color: #fff; }
+	a:hover, a:visited:hover { color: rgba(255, 255, 255, 0.8); }
+}
 
-.container {
+.cap-width {
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 5rem 2rem;
-
-	@media screen and (max-width: 1200px) {
-		padding: 3rem 2rem;
-	}
-
-	@media print {
-		padding: 5rem 1rem;
-	}
-
 }
 
 .invert {
@@ -81,18 +71,6 @@ h3 { font: 400 18px / 30px Roboto, "Helvetica Neue", sans-serif !important; }
 	mat-divider {
 		border-color: rgba(0, 0, 0, 0.4);
 	}
-}
-
-@media screen {
-	.fill {
-		height: 0;
-		min-height: calc(100vh - 64px);
-	}
-}
-
-.transparent-link {
-	a, a:visited { color: #fff; }
-	a:hover, a:visited:hover { color: rgba(255, 255, 255, 0.8); }
 }
 
 ol {
