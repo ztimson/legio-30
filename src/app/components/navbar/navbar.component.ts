@@ -25,6 +25,7 @@ export class NavbarComponent implements AfterViewInit, OnDestroy {
 
 	ngAfterViewInit() {
 		this.sub = combineLatest([this.router.events.pipe(filter(e => e instanceof NavigationEnd)), this.route.fragment]).subscribe(([url, frag]) => {
+			console.log('fire');
 			if(frag) this.scroll(frag);
 			else this.scrollTop();
 		});
@@ -41,7 +42,6 @@ export class NavbarComponent implements AfterViewInit, OnDestroy {
 	}
 
 	scrollTop() {
-		const container = document.getElementsByClassName('app-container')[0];
-		container.scrollTo(0, 0);
+		window.scrollTo(0, 0);
 	}
 }
