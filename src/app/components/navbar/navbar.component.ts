@@ -1,5 +1,5 @@
 import {AfterViewInit, Component, EventEmitter, Input, OnDestroy, Output} from '@angular/core';
-import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
+import {ActivatedRoute, NavigationEnd, NavigationStart, Router} from '@angular/router';
 import {combineLatest, filter, Subscription} from 'rxjs';
 import {NAVIGATION} from '../../misc/navigation';
 import {BreakpointService} from '../../services/breakpoint.service';
@@ -24,8 +24,7 @@ export class NavbarComponent implements AfterViewInit, OnDestroy {
 	constructor(private route: ActivatedRoute, private router: Router, public breakpoint: BreakpointService) { }
 
 	ngAfterViewInit() {
-		this.sub = combineLatest([this.router.events.pipe(filter(e => e instanceof NavigationEnd)), this.route.fragment]).subscribe(([url, frag]) => {
-			console.log('fire');
+		this.sub = combineLatest([this.router.events.pipe(filter((e: any) => e.navigationTrigger != 'popstate' || e instanceof NavigationStart)), this.route.fragment]).subscribe(([url, frag]) => {
 			if(frag) this.scroll(frag);
 			else this.scrollTop();
 		});
