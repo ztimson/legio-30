@@ -1,0 +1,16 @@
+<div class="carousel-container"  [style.height]="height" style="background: #282d31">
+	<div class="carousel-previous" (click)="previous()">
+		<mat-icon>keyboard_arrow_left</mat-icon>
+	</div>
+	<div *ngIf="loading" class="carousel-loading">
+		<div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+	</div>
+	<img class="carousel-image" [src]="photos[index].src" [alt]="photos[index].alt || 'slide ' + index" (load)="loading = false">
+	<div class="carousel-next" (click)="next()">
+		<mat-icon>keyboard_arrow_right</mat-icon>
+	</div>
+	<div *ngIf="!disableAutoplay" class="carousel-pause" (click)="pause = !pause">
+		<mat-icon *ngIf="!pause">pause</mat-icon>
+		<mat-icon *ngIf="pause">play_arrow</mat-icon>
+	</div>
+</div>
