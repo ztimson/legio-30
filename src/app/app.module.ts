@@ -24,6 +24,7 @@ import {CalendarComponent} from './views/events/calendar/calendar.component';
 import {HibernaComponent} from './views/events/hiberna/hiberna.component';
 import {GalleryComponent} from './views/gallery/gallery.component';
 import {HomeComponent} from './views/home/home.component';
+import {DiyComponent} from './views/reenact/diy/diy.component';
 import {DrillComponent} from './views/reenact/drill/drill.component';
 import {GettingStartedComponent} from './views/reenact/getting-started/getting-started.component';
 import {MaintenanceComponent} from './views/reenact/maintinance/maintenance.component';
@@ -38,6 +39,7 @@ export const APP_COMPONENTS: any[] = [
 	CalendarComponent,
 	CarouselComponent,
 	ContactComponent,
+	DiyComponent,
 	DrillComponent,
 	FooterComponent,
 	FourOFourComponent,
