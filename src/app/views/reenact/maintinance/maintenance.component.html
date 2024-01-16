@@ -10,239 +10,275 @@
 			</div>
 			<mat-divider></mat-divider>
 		</div>
-		<p>In an era marked by frequent warfare and constant threats, the effectiveness and durability of weapons and armor were critical for the survival of soldiers on the battlefield. Regular upkeep ensures that swords, and armor remain sharp, reliable and in working condition. Learn what how you can best care for your equipment.</p>
 		<div>
-			<h2 class="mb-1">Table of Contents</h2>
-			<mat-divider class="mb-3"></mat-divider>
 			<ul>
-				<li>Cloth</li>
+				<li><a routerLink="/maintenance" fragment="leather">Leather</a></li>
 				<ul>
-					<li>Lanolin</li>
+					<li><a routerLink="/maintenance" fragment="leather-damp-cloth">Damp Cloth</a></li>
+					<li><a routerLink="/maintenance" fragment="leather-lanolin">Lanolin</a></li>
+					<li><a routerLink="/maintenance" fragment="leather-conditioner">Conditioner</a></li>
 				</ul>
-				<li>Leather</li>
+				<li><a routerLink="/maintenance" fragment="wood">Wood</a></li>
 				<ul>
-					<li>Damp Cloth</li>
-					<li>Conditioner</li>
-					<li>Lanolin</li>
+					<li><a routerLink="/maintenance" fragment="wood-mineral-oil">Mineral Oil</a></li>
+					<li><a routerLink="/maintenance" fragment="wood-linseed-oil">Linseed Oil</a></li>
 				</ul>
-				<li>Wood</li>
+				<li><a routerLink="/maintenance" fragment="metal">Metal</a></li>
 				<ul>
-					<li>Mineral Oil</li>
-					<li>Linseed Oil</li>
-				</ul>
-				<li>Metal</li>
-				<ul>
-					<li>Rust Removal</li>
+					<li><a routerLink="/maintenance" fragment="metal-rust-removal">Rust Removal</a></li>
 					<ul>
-						<li>White Wine Vinegar</li>
+						<li><a routerLink="/maintenance" fragment="metal-rust-removal-vinegar">White Wine Vinegar</a></li>
 					</ul>
-					<li>Preservation</li>
+					<li><a routerLink="/maintenance" fragment="metal-preservation">Preservation</a></li>
 					<ul>
-						<li>WD-40</li>
-						<li>Lanolin</li>
-						<li>Wax</li>
+						<li><a routerLink="/maintenance" fragment="metal-preservation-wd-40">WD-40</a></li>
+						<li><a routerLink="/maintenance" fragment="metal-preservation-lanolin">Lanolin</a></li>
+						<li><a routerLink="/maintenance" fragment="metal-preservation-linseed-oil">Linseed Oil</a></li>
+						<li><a routerLink="/maintenance" fragment="metal-preservation-wax">Wax</a></li>
 					</ul>
 				</ul>
 			</ul>
 		</div>
 		<div class="my-4 mb-5">
 			<div>
-				<div class="mb-4">
-					<h2 class="mb-2">Leather</h2>
-					<p>Dust can discolour leather & it will become brittle if it dries.</p>
-					<div>
-						<h3 class="mb-2">Damp Cloth</h3>
-						<p>A moist cloth will remove dust and prevent the leather from dying out too much.</p>
-						<table>
-							<thead>
-							<tr>
+				<div class="mb-5">
+					<h2 id="leather" class="mb-0">Leather</h2>
+					<mat-divider class="mb-3"></mat-divider>
+					<div class="mb-4">
+						<h3 id="leather-damp-cloth" class="mb-0">Damp Cloth</h3>
+						<p class="mb-2">A moist cloth will remove dust, mildew, and prevent the leather from dying out too much.</p>
+						<table class="table2">
+							<tbody>
+							<tr class="subtitle">
 								<th>Pros</th>
 								<th>Cons</th>
 							</tr>
-							</thead>
-							<tbody>
 							<tr>
-								<td>
-									<ul>
-										<li>Free</li>
-									</ul>
-								</td>
-								<td>
-									<ul>
-										<li>Should be reapplied monthly</li>
-										<li>No additional protection</li>
-									</ul>
-								</td>
+								<td>Historically accurate</td>
+								<td>Should be done monthly</td>
+							</tr>
+							<tr>
+								<td>Free</td>
+								<td>No additional protection</td>
 							</tr>
 							</tbody>
 						</table>
 					</div>
-					<div>
-						<h3 class="mb-2">Conditioners</h3>
-						<p>A variety of leather conditioners exist to moisten and protect leather.</p>
-						<table>
-							<thead>
-							<tr>
+					<div class="mb-4">
+						<h3 id="leather-lanolin" class="mb-0">Lanolin</h3>
+						<p class="mb-2">Use a cloth or piece of chamois leather to apply lanolin to surface.</p>
+						<table class="table2 mb-2">
+							<tbody>
+							<tr class="subtitle">
 								<th>Pros</th>
 								<th>Cons</th>
 							</tr>
-							</thead>
-							<tbody>
 							<tr>
-								<td>
-									<ul>
-										<li>Provides protection</li>
-									</ul>
-								</td>
-								<td>
-									<ul>
-										<li>Not historically accurate</li>
-									</ul>
-								</td>
+								<td>Historically accurate</td>
+								<td>Smelly & leaves oily residue</td>
+							</tr>
+							<tr>
+								<td>Provides protection</td>
+								<td></td>
 							</tr>
 							</tbody>
 						</table>
+						<p><strong>Source:</strong> Tony D., <a href="/assets/manuals/Preservation%20-%20Lanolin.pdf" target="_blank"><em>Lanolin Used for Metal Preservation Grease and Rome</em></a></p>
 					</div>
-					<div>
-						<h3 class="mb-2">Lanolin <sup>[I]</sup></h3>
-						<p>Water disolvent can be sprayed liberally on metal surfaces to remove any moister.</p>
-						<table>
-							<thead>
-							<tr>
+					<div class="mb-4">
+						<h3 id="leather-conditioner" class="mb-0">Conditioner</h3>
+						<p class="mb-2">A variety of leather conditioners exist to moisten and protect leather. Follow the condition instructions.</p>
+						<table class="table2 mb-2">
+							<tbody>
+							<tr class="subtitle">
 								<th>Pros</th>
 								<th>Cons</th>
 							</tr>
-							</thead>
-							<tbody>
 							<tr>
-								<td>
-									<ul>
-										<li>Cheap</li>
-										<li>Easy</li>
-									</ul>
-								</td>
-								<td>
-									<ul>
-										<li>Extremely short term</li>
-										<li>Leaves surface oily & smelly</li>
-									</ul>
-								</td>
+								<td>Long term</td>
+								<td>Not historically accurate</td>
+							</tr>
+							<tr>
+								<td>Provides protection</td>
+								<td>Most expensive option</td>
 							</tr>
 							</tbody>
 						</table>
 					</div>
 				</div>
-				<div class="mb-3">
-					<h3 class="mb-2">Wood</h3>
-					<p>Like leather wood can become weathered, dry & crack over time if neglected.</p>
-					<div>
-						<h4 class="mb-2">Mineral Oil</h4>
-						<p>Wipe wooden areas down with a cloth soaked in mineral oil.</p>
-						<table>
-							<thead>
-							<tr>
+				<div class="mb-5">
+					<h2 id="wood" class="mb-0">Wood</h2>
+					<mat-divider class="mb-3"></mat-divider>
+					<div class="mb-4">
+						<h3 id="wood-mineral-oil" class="mb-0">Mineral Oil</h3>
+						<p class="mb-2">Wipe wooden areas down with a cloth soaked in mineral oil.</p>
+						<table class="table2 mb-2">
+							<tbody>
+							<tr class="subtitle">
 								<th>Pros</th>
 								<th>Cons</th>
 							</tr>
-							</thead>
-							<tbody>
 							<tr>
-								<td>
-									<ul>
-										<li>Conditions wood</li>
-										<li>Doesn't affect color</li>
-										<li>Brings out grain without adding color</li>
-									</ul>
-								</td>
-								<td>
-									<ul>
-										<li>Needs to be reapplied monthly</li>
-										<li>Not waterproof</li>
-										<li>Doesn't add any protection</li>
-									</ul>
-								</td>
+								<td>Conditions Wood</td>
+								<td>Should be done monthly</td>
+							</tr>
+							<tr>
+								<td>Brings out wood grain</td>
+								<td>Not waterproof</td>
+							</tr>
+							<tr>
+								<td>Doesn't affect color</td>
+								<td>Doesn't add protection</td>
 							</tr>
 							</tbody>
 						</table>
 					</div>
-					<div>
-						<h4 class="mb-2">Linseed Oil</h4>
-						<p>Lightly apply boiled linseed oil to wooden areas with a cloth. Then leave to dry; this can take 3-7 days.</p>
-						<table>
-							<thead>
-							<tr>
+					<div class="mb-4">
+						<h3 id="wood-linseed-oil" class="mb-0">Linseed Oil</h3>
+						<p class="mb-2">Apply boiled linseed oil to wooden areas with a cloth. Do this daily for a week, weekly for a month, then monthly for a year.</p>
+						<table class="table2 mb-2">
+							<tbody>
+							<tr class="subtitle">
 								<th>Pros</th>
 								<th>Cons</th>
 							</tr>
-							</thead>
-							<tbody>
 							<tr>
-								<td>
-									<ul>
-										<li>Brings out color & texture</li>
-										<li>Penetrates deeply to protect against humidity</li>
-										<li>Adds a protective coating</li>
-										<li>Water proof</li>
-										<li>Reapply annually after base coat is established</li>
-									</ul>
-								</td>
-								<td>
-									<ul>
-										<li>Takes a while to dry</li>
-										<li>Can stain yellow over time</li>
-									</ul>
-								</td>
+								<td>Only has to be re-applied annually once base coat is built up</td>
+								<td>Lengthy process</td>
+							</tr>
+							<tr>
+								<td>Brings out wood grain</td>
+								<td>Turns amber over time, affecting color</td>
+							</tr>
+							<tr>
+								<td>Provides protection & water proofing</td>
+								<td></td>
 							</tr>
 							</tbody>
 						</table>
 					</div>
 				</div>
-				<div class="mb-3">
-					<h3 class="mb-2">Rust Removal</h3>
-					<p>Rust can form incredibly quick & keeping your armour polished can be a constant battle.</p>
-					<p>A simplre remideee </p>
-				</div>
-				<div class="mb-3">
-					<h3 class="mb-2">Metal Preservation</h3>
-					<div>
-						<h4 class="mb-2">WD-40</h4>
-						<p>Water disolvent can be sprayed liberally on metal surfaces to remove any moister.</p>
-						<table>
-							<thead>
-								<tr>
-									<th>Pros</th>
-									<th>Cons</th>
-								</tr>
-							</thead>
+				<div class="mb-5">
+					<h2 id="metal" class="mb-0">Metal</h2>
+					<mat-divider class="mb-3"></mat-divider>
+					<h2 id="metal-rust-removal" class="mb-1">Rust Removal</h2>
+					<div class="mb-3">
+						<h3 id="metal-rust-removal-vinegar" class="mb-0">White Wine Vinegar</h3>
+						<p class="mb-2">Spray metal or sponge/scotch-bright pad with white wine vinegar and scrub surface.</p>
+						<table class="table2 mb-2">
 							<tbody>
-								<tr>
-									<td>
-										<ul>
-											<li>Cheap</li>
-											<li>Easy</li>
-										</ul>
-									</td>
-									<td>
-										<ul>
-											<li>Extremely short term</li>
-											<li>Leaves surface oily & smelly</li>
-										</ul>
-									</td>
-								</tr>
+							<tr class="subtitle">
+								<th>Pros</th>
+								<th>Cons</th>
+							</tr>
+							<tr>
+								<td>Historically accurate</td>
+								<td>Can leave drip marks if left for too long</td>
+							</tr>
+							<tr>
+								<td>Usually quick & easy</td>
+								<td>Can be time consuming if badly rusted</td>
+							</tr>
+							<tr>
+								<td>Cheap</td>
+								<td></td>
+							</tr>
+							</tbody>
+						</table>
+						<p><strong>Source:</strong> Metatron, <a href="https://www.youtube.com/watch?v=pzgjCq-Grhg" target="_blank"><em>How To Remove Rust From Your Armour With Only $3</em></a></p>
+					</div>
+					<h2 id="metal-preservation" class="mb-1">Preservation</h2>
+					<div class="mb-4">
+						<h3 id="metal-preservation-wd-40" class="mb-0">WD-40</h3>
+						<p class="mb-2">Spray metal or cloth with WD-40 and wipe down. Technically doesn't preserve, just removes any moister, slowing down rust.</p>
+						<table class="table2 mb-2">
+							<tbody>
+							<tr class="subtitle">
+								<th>Pros</th>
+								<th>Cons</th>
+							</tr>
+							<tr>
+								<td>Cheap</td>
+								<td>No protection</td>
+							</tr>
+							<tr>
+								<td>Easy</td>
+								<td>Short term</td>
+							</tr>
 							</tbody>
 						</table>
 					</div>
-					<h4>Lanolin <sup>[I]</sup></h4>
-					<h4>Wax <sup>[II]</sup></h4>
+					<div class="mb-4">
+						<h3 id="metal-preservation-lanolin" class="mb-0">Lanolin</h3>
+						<p class="mb-2">Use a cloth or piece of chamois leather to apply lanolin to surface.</p>
+						<table class="table2 mb-2">
+							<tbody>
+							<tr class="subtitle">
+								<th>Pros</th>
+								<th>Cons</th>
+							</tr>
+							<tr>
+								<td>Historically accurate</td>
+								<td>Smelly & leaves oily residue</td>
+							</tr>
+							<tr>
+								<td>Provides protection</td>
+								<td></td>
+							</tr>
+							</tbody>
+						</table>
+						<p><strong>Source:</strong> Tony D., <a href="/assets/manuals/Preservation%20-%20Lanolin.pdf" target="_blank"><em>Lanolin Used for Metal Preservation Grease and Rome</em></a></p>
+					</div>
+					<div class="mb-4">
+						<h3 id="metal-preservation-linseed-oil" class="mb-0">Linseed Oil</h3>
+						<p class="mb-2">Using a cloth, rub metal surface in linseed oil.</p>
+						<table class="table2 mb-2">
+							<tbody>
+							<tr class="subtitle">
+								<th>Pros</th>
+								<th>Cons</th>
+							</tr>
+							<tr>
+								<td>Historicaly accurate</td>
+								<td>Leaves oily residue</td>
+							</tr>
+							<tr>
+								<td>Provides protection</td>
+								<td></td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="mb-4">
+						<h3 id="metal-preservation-wax" class="mb-0">Wax</h3>
+						<p class="mb-2">Use a double boiler (Bowl in a pot of boiling water) to melt wax & turpentine. Use a brush to apply wax to metal surfaces.</p>
+						<table class="table2 mb-2">
+							<tbody>
+							<tr class="subtitle">
+								<th>Pros</th>
+								<th>Cons</th>
+							</tr>
+							<tr>
+								<td>Historically accurate</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Cheap & easy</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Doesn't leave residue</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Long term protection</td>
+								<td></td>
+							</tr>
+							</tbody>
+						</table>
+						<p><strong>Source:</strong> Robert A. Buerlein, <a href="/assets/manuals/Preservation%20-%20Edged%20Weapons.jpg" target="_blank"><em>Care and Preservation of Edged Weapons</em></a></p>
+					</div>
 				</div>
-			</div>
-			<hr>
-			<div>
-				<h2>Sources</h2>
-				<ol>
-					<li>Tony D., <a href=""><em>Lanolin Used for Metal Preservation Grease and Rome</em></a></li>
-					<li>Robert A. Buerlein, <a href=""><em>Care and Preservation of Edged Weapons</em></a></li>
-				</ol>
 			</div>
 		</div>
 	</div>
