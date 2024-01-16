@@ -10,7 +10,19 @@ import {Photo} from '../../components/models/photo';
 })
 export class GalleryComponent {
 	photos: {album: string, photos: Photo[]}[] = [
-		{album: '2022', photos: [
+		{album: '2023', photos: [
+			{alt: '', src: '/assets/img/gallery/2023/001.jpg'},
+			{alt: '', src: '/assets/img/gallery/2023/002.jpg'},
+			{alt: '', src: '/assets/img/gallery/2023/003.jpg'},
+			{alt: '', src: '/assets/img/gallery/2023/004.jpg'},
+			{alt: '', src: '/assets/img/gallery/2023/005.jpg'},
+			{alt: '', src: '/assets/img/gallery/2023/006.jpg'},
+			{alt: '', src: '/assets/img/gallery/2023/007.jpg'},
+			{alt: '', src: '/assets/img/gallery/2023/008.jpg'},
+			{alt: '', src: '/assets/img/gallery/2023/009.jpg'},
+			{alt: '', src: '/assets/img/gallery/2023/010.jpg'},
+			{alt: '', src: '/assets/img/gallery/2023/011.jpg'},
+		]}, {album: '2022', photos: [
 			{alt: '', src: '/assets/img/gallery/2022/001.jpg'},
 			{alt: '', src: '/assets/img/gallery/2022/002.jpg'},
 			{alt: '', src: '/assets/img/gallery/2022/003.jpg'},
@@ -161,7 +173,7 @@ export class GalleryComponent {
 			{alt: '', src: '/assets/img/gallery/2007/004.jpg'},
 			{alt: '', src: '/assets/img/gallery/2007/005.jpg'},
 			{alt: '', src: '/assets/img/gallery/2007/006.jpg'},
-	]}];
+		]}];
 
 	constructor(private dialog: MatDialog) {}
 

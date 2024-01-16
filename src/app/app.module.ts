@@ -29,6 +29,7 @@ import {DrillComponent} from './views/reenact/drill/drill.component';
 import {GettingStartedComponent} from './views/reenact/getting-started/getting-started.component';
 import {MaintenanceComponent} from './views/reenact/maintinance/maintenance.component';
 import {RulesComponent} from './views/reenact/rules/rules.component';
+import {BuyComponent} from './views/reenact/buy/buy.component';
 
 export const APP_COMPONENTS: any[] = [
 	AboutComponent,
@@ -36,6 +37,7 @@ export const APP_COMPONENTS: any[] = [
 	AgoniumComponent,
 	AppComponent,
 	BannerComponent,
+	BuyComponent,
 	CalendarComponent,
 	CarouselComponent,
 	ContactComponent,
@@ -52,7 +54,7 @@ export const APP_COMPONENTS: any[] = [
 	MaintenanceComponent,
 	NavbarComponent,
 	PlaceholderComponent,
-	RulesComponent
+	RulesComponent,
 ]
 
 export const APP_IMPORTS: any[] = [

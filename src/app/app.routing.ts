@@ -13,10 +13,12 @@ import {DrillComponent} from './views/reenact/drill/drill.component';
 import {GettingStartedComponent} from './views/reenact/getting-started/getting-started.component';
 import {MaintenanceComponent} from './views/reenact/maintinance/maintenance.component';
 import {RulesComponent} from './views/reenact/rules/rules.component';
+import {BuyComponent} from './views/reenact/buy/buy.component';
 
 const routes: Routes = [
 	{path: '', pathMatch: 'full', component: HomeComponent},
 	{path: 'about', component: AboutComponent, data: {title: 'About'}},
+	{path: 'buy', component: BuyComponent, data: {title: 'Buy'}},
 	{path: 'drill', component: DrillComponent, data: {title: 'Drill Commands'}},
 	{path: 'diy', component: DiyComponent, data: {title: 'Build Equipment'}},
 	{path: 'events/agonium', component: AgoniumComponent, data: {title: 'Agonium'}},
