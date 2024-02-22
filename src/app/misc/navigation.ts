@@ -14,6 +14,7 @@ export const NAVIGATION: NavigationGroup = [
 			{label: 'About', url: '/about'},
 			{label: 'Contact', url: '/', fragment: 'contact'},
 			{label: 'Gallery', url: '/gallery'},
+			{label: 'Resources', url: '/info/resources'},
 	]]},
 	{label: 'Events', children: [[
 			{label: 'Castra Aestiva', url: '/events/castra-aestiva'},

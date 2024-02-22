@@ -30,6 +30,7 @@ import {GettingStartedComponent} from './views/reenact/getting-started/getting-s
 import {MaintenanceComponent} from './views/reenact/maintinance/maintenance.component';
 import {RulesComponent} from './views/reenact/rules/rules.component';
 import {BuyComponent} from './views/reenact/buy/buy.component';
+import {ResourcesComponent} from './views/resources/resources.component';
 
 export const APP_COMPONENTS: any[] = [
 	AboutComponent,
@@ -54,6 +55,7 @@ export const APP_COMPONENTS: any[] = [
 	MaintenanceComponent,
 	NavbarComponent,
 	PlaceholderComponent,
+	ResourcesComponent,
 	RulesComponent,
 ]
 

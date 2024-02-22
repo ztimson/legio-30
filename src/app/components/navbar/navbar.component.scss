@@ -10,7 +10,7 @@
 	.navbar-brand {
 		color: #fff;
 
-		&:hover img { filter: brightness(5%) sepia(75) saturate(100) hue-rotate(25deg); }
+		&:hover img { filter: brightness(5%) sepia(75) saturate(100) hue-rotate(25deg) !important; }
 		&:hover, &:visited:hover { color: #b10000; }
 	}
 

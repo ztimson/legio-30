@@ -14,6 +14,7 @@ import {GettingStartedComponent} from './views/reenact/getting-started/getting-s
 import {MaintenanceComponent} from './views/reenact/maintinance/maintenance.component';
 import {RulesComponent} from './views/reenact/rules/rules.component';
 import {BuyComponent} from './views/reenact/buy/buy.component';
+import {ResourcesComponent} from './views/resources/resources.component';
 
 const routes: Routes = [
 	{path: '', pathMatch: 'full', component: HomeComponent},
@@ -27,8 +28,9 @@ const routes: Routes = [
 	{path: 'events/calendar', component: CalendarComponent, data: {title: 'Calendar'}},
 	{path: 'gallery', component: GalleryComponent, data: {title: 'Gallery'}},
 	{path: 'getting-started', component: GettingStartedComponent, data: {title: 'Getting Started'}},
-	{path: 'rules', component: RulesComponent, data: {title: 'Rules & Regulations'}},
+	{path: 'info/resources', component: ResourcesComponent, data: {title: 'Resources'}},
 	{path: 'maintenance', component: MaintenanceComponent, data: {title: 'Maintenance'}},
+	{path: 'rules', component: RulesComponent, data: {title: 'Rules & Regulations'}},
 	{path: '**', component: FourOFourComponent, data: {title: '404'}}
 ];
 

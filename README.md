@@ -3,7 +3,7 @@
   <br />
 
   <!-- Logo -->
-  <img src="./src/assets/img/eagle.png" alt="Logo" width="200" height="200">
+  <img src="./src/assets/img/favicon.svg" alt="Logo" width="200" height="200">
 
   <!-- Title -->
   ### Legio • XXX
