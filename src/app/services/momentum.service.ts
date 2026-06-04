@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Momentum, type User} from '@ztimson/momentum';
+import {Momentum} from '@ztimson/momentum';
 import {BehaviorSubject} from 'rxjs';
 import {from, map} from 'rxjs';
 import {filter} from 'rxjs/operators';
@@ -18,7 +18,7 @@ declare global {
 @Injectable({providedIn: 'root'})
 export class MomentumService {
 	static SCHEMA: {[key: string]: string} = {
-		// TODO: Add paths
+		contact: 'Contact',
 	}
 
 	api!: Momentum;
@@ -29,11 +29,11 @@ export class MomentumService {
 
 	// @ts-ignore
 	user = new BehaviorSubject<User | null | undefined>(undefined); // Undefined at init, null when logged out, object when logged in.
-	admin = from(this.user).pipe(filter((u: any) => u !== undefined), map((u: User | null) => u?.groups.includes('admin')));
+	admin = from(this.user).pipe(filter(u => u !== undefined), map(u => u?.groups.includes('admin')));
 	isLoggedIn = from(this.user).pipe(filter(u => u !== undefined), map(Boolean));
 
 	constructor() {
-		this.api = new Momentum("https://legio-30.org", {
+		this.api = window['momentum'] = new Momentum("https://legio-30.org", {
 			app: "Website",
 			analytics: "prompt",
 			logLevel: "ERROR",

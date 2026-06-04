@@ -12,11 +12,11 @@
 		<mat-icon *ngIf="manual">play_arrow</mat-icon>
 	</div>
 	<div *ngIf="!manual" class="banner-seal d-flex flex-column align-items-center justify-content-center">
-		<img src="/assets/img/favicon.svg" class="mt-5" alt="SPQR" height="250" width="250" style="filter: brightness(100%) drop-shadow(2px 4px 6px black);">
+		<img src="/assets/img/favicon.svg" class="mt-5" alt="SPQR" height="250" width="250">
 		<div>
-			<a class="text-white" routerLink="" fragment="about">
-				<i class="fa fa-angle-double-down fa-4x" style="filter: drop-shadow(2px 4px 6px black);"></i>
-			</a>
+			<button type="button" class="banner-scroll text-white" (click)="scrollToAbout()" aria-label="Scroll to about section">
+				<i class="fa fa-angle-double-down fa-4x"></i>
+			</button>
 		</div>
 	</div>
 </div>

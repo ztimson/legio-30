@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {NavigationEnd, Router} from '@angular/router';
 import {combineLatest, filter, Subscription} from 'rxjs';
 import {BreakpointService} from '../../services/breakpoint.service';
+import {MomentumService} from '../../services/momentum.service';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,7 @@ export class AppComponent {
 	mobile = false;
 	open = false;
 
-	constructor(private breakpoint: BreakpointService, private router: Router) {
+	constructor(private breakpoint: BreakpointService, private momentum: MomentumService, private router: Router) {
 		this.sub = combineLatest([
 			router.events.pipe(filter(event => event instanceof NavigationEnd)),
 			breakpoint.isMobile$
@@ -22,6 +23,10 @@ export class AppComponent {
 			this.mobile = mobile;
 			this.open = !this.mobile;
 		})
+	}
+
+	ngOnInit(): void {
+		this.momentum.api.client.inject();
 	}
 
 	ngOnDestroy() {

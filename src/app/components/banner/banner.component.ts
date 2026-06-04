@@ -41,7 +41,7 @@ export class BannerComponent implements AfterViewInit, OnDestroy, OnInit {
 		this.sub = interval(this.speed)
 			.subscribe( i => {
 				if(this.manual) return;
- 				this.selected = i % this.images.length
+				this.selected = i % this.images.length
 			});
 	}
 
@@ -65,5 +65,12 @@ export class BannerComponent implements AfterViewInit, OnDestroy, OnInit {
 		this.manual = true;
 		this.selected--;
 		if(this.selected < 0) this.selected = this.images.length - 1;
+	}
+
+	scrollToAbout() {
+		document.getElementById('about')?.scrollIntoView({
+			behavior: 'smooth',
+			block: 'start'
+		});
 	}
 }

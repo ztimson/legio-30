@@ -4,6 +4,8 @@
 	"compilerOptions": {
 		"baseUrl": "./",
 		"outDir": "./out-tsc/app",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
 		"forceConsistentCasingInFileNames": true,
 		"strict": true,
 		"noImplicitOverride": true,
@@ -13,6 +15,7 @@
 		"sourceMap": true,
 		"declaration": false,
 		"downlevelIteration": true,
+		"skipLibCheck": true,
 		"experimentalDecorators": true,
 		"moduleResolution": "node",
 		"importHelpers": true,
