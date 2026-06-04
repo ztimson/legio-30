@@ -21,6 +21,6 @@ RUN BUILD_MODE=$([ "$NODE_ENV" = "prod" ] && echo "prod" || echo "dev") && \
 	if [ ! -d "dist" ]; then npm run "build:$BUILD_MODE"; fi
 
 # Use Momentum to serve
-FROM git.zakscode.com/momentum/momentum:diarization
+FROM git.zakscode.com/momentum/momentum
 RUN rm -rf /app/server/public/assets /app/server/public/index.html
 COPY --from=build /app/dist /app/server/public
