@@ -16,12 +16,6 @@ export const NAVIGATION: NavigationGroup = [
 			{label: 'Gallery', url: '/gallery'},
 			{label: 'Resources', url: '/info/resources'},
 	]]},
-	{label: 'Events', children: [[
-			{label: 'Castra Aestiva', url: '/events/castra-aestiva'},
-			{label: 'Castra Hiberna', url: '/events/castra-hiberna'},
-		], [
-			{label: 'Calendar', url: '/events/calendar'},
-	]]},
 	// {label: 'Learn', children: [[
 	// 		{label: 'Trajan', url: '/info/trajan'},
 	// 		{label: 'Legio XXX', url: '/info/legio-xxx'},
@@ -35,14 +29,20 @@ export const NAVIGATION: NavigationGroup = [
 	// 		{label: 'Glossary', url: '/info/glossary'},
 	// 		{label: 'Resources', url: '/info/resources'},
 	// ]]},
-	{label: 'Reenact', children: [[
+	{label: 'Reenact', children: [
+		[
 			{label: 'Getting Started', url: '/getting-started'},
-			{label: 'Rules & Regulations', url: '/rules'},
 			{label: 'Drill Commands', url: '/drill'},
-		], [
-			{label: 'Buy Equipment', url: '/buy'},
-			{label: 'Build Equipment', url: '/diy'},
+			{label: 'Equipment', url: '/equipment'},
 			{label: 'Maintenance', url: '/maintenance'},
+			{label: 'Rules & Regulations', url: '/rules'},
+		]
+	]},
+	{label: 'Members', children: [[
+			{label: 'Calendar', url: '/events/calendar'},
+		], [
+			{label: 'Castra Aestiva', url: '/events/castra-aestiva'},
+			{label: 'Castra Hiberna', url: '/events/castra-hiberna'},
 		]
 	]},
 ]

@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, Input, OnDestroy, OnInit} from '@angular/core';
+import {AfterViewInit, Component, EventEmitter, Input, OnDestroy, OnInit, Output} from '@angular/core';
 import {Photo} from '../models/photo';
 
 @Component({
@@ -18,6 +18,7 @@ export class CarouselComponent implements OnDestroy, OnInit, AfterViewInit {
 	@Input() disableAutoplay = false;
 	@Input() index = ~~(Math.random() * this.photos.length);
 	@Input() height = '100%';
+	@Output() indexChange = new EventEmitter<number>();
 
 	ngOnInit() {
 		if(this.disableAutoplay) this.pause = true;
@@ -41,11 +42,13 @@ export class CarouselComponent implements OnDestroy, OnInit, AfterViewInit {
 		this.pause = pause;
 		this.index++;
 		if(this.index >= this.photos.length) this.index = 0;
+		this.indexChange.emit(this.index);
 	}
 
 	previous(pause = true) {
 		this.loading = true;
 		this.pause = pause;
 		this.index = this.index > 0 ? this.index - 1 : this.photos.length - 1;
+		this.indexChange.emit(this.index);
 	}
 }

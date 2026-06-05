@@ -111,3 +111,10 @@ ol {
 	a, a:visited { color: #fff; }
 	a:hover, a:visited:hover { color: rgba(255, 255, 255, 0.8); }
 }
+
+@media print {
+	.event-card {
+		border: 1px solid #ccc !important;
+		border-radius: 4px;
+	}
+}

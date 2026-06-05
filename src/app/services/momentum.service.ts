@@ -29,7 +29,7 @@ export class MomentumService {
 
 	// @ts-ignore
 	user = new BehaviorSubject<User | null | undefined>(undefined); // Undefined at init, null when logged out, object when logged in.
-	admin = from(this.user).pipe(filter(u => u !== undefined), map(u => u?.groups.includes('admin')));
+	admin = from(this.user).pipe(filter(u => u !== undefined), map(u => this.api.permissions.has('admin')));
 	isLoggedIn = from(this.user).pipe(filter(u => u !== undefined), map(Boolean));
 
 	constructor() {
@@ -37,11 +37,15 @@ export class MomentumService {
 			app: "Website",
 			analytics: "prompt",
 			logLevel: "ERROR",
+			persist: true,
 		});
 
+		this.api.auth.on('login', () => this.user.next(this.api.auth.user));
 		this.api.auth.on('logout', () => location.reload());
 		this.api.client.on('install', () => this.installable.next(this.api.client.canInstall));
 		this.installable.next(this.api.client.canInstall);
+
+		this.api.auth.readSession();
 		this.api.settings.sync((event, value) => {
 			this.title.next(value['title']);
 			this.settings.next(value);

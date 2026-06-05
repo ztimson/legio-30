@@ -1,0 +1,16 @@
+<h2 mat-dialog-title>Upload Photos</h2>
+<mat-dialog-content>
+	<p class="text-muted">Select the year these photos were taken then choose your files.</p>
+	<mat-form-field appearance="outline" class="w-100">
+		<mat-label>Year</mat-label>
+		<mat-select [(ngModel)]="year">
+			<mat-option *ngFor="let y of years" [value]="y">{{y}}</mat-option>
+		</mat-select>
+	</mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+	<button mat-button mat-dialog-close>Cancel</button>
+	<button mat-raised-button color="primary" (click)="upload()" [disabled]="uploading">
+		<mat-icon>upload</mat-icon> Choose Files
+	</button>
+</mat-dialog-actions>

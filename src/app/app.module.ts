@@ -1,5 +1,5 @@
 import {NgModule} from '@angular/core';
-import {ReactiveFormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {BrowserModule} from '@angular/platform-browser';
 import {NgxGoogleAnalyticsModule} from 'ngx-google-analytics';
 import {environment} from '../environments/environment';
@@ -14,6 +14,7 @@ import {NavbarComponent} from './components/navbar/navbar.component';
 import {PlaceholderComponent} from './components/placeholder/placeholder.component';
 import {AppComponent} from './containers/app/app.component';
 import {BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {InViewDirective} from './directives/in-view.directive';
 import {MaterialModule} from './material.module';
 import {PrelaodService} from './services/prelaod.service';
 import {FourOFourComponent} from './views/404/404.component';
@@ -24,13 +25,14 @@ import {CalendarComponent} from './views/events/calendar/calendar.component';
 import {HibernaComponent} from './views/events/hiberna/hiberna.component';
 import {GalleryComponent} from './views/gallery/gallery.component';
 import {HomeComponent} from './views/home/home.component';
-import {DiyComponent} from './views/reenact/diy/diy.component';
 import {DrillComponent} from './views/reenact/drill/drill.component';
+import {EquipmentComponent} from './views/reenact/equipment/equipment.component';
 import {GettingStartedComponent} from './views/reenact/getting-started/getting-started.component';
 import {MaintenanceComponent} from './views/reenact/maintinance/maintenance.component';
 import {RulesComponent} from './views/reenact/rules/rules.component';
-import {BuyComponent} from './views/reenact/buy/buy.component';
 import {ResourcesComponent} from './views/resources/resources.component';
+import {RegisterComponent} from './views/register/register.component';
+import {UploaderComponent} from './components/uploader/uploader.component';
 
 export const APP_COMPONENTS: any[] = [
 	AboutComponent,
@@ -38,12 +40,11 @@ export const APP_COMPONENTS: any[] = [
 	AgoniumComponent,
 	AppComponent,
 	BannerComponent,
-	BuyComponent,
 	CalendarComponent,
 	CarouselComponent,
 	ContactComponent,
-	DiyComponent,
 	DrillComponent,
+	EquipmentComponent,
 	FooterComponent,
 	FourOFourComponent,
 	GalleryComponent,
@@ -51,18 +52,22 @@ export const APP_COMPONENTS: any[] = [
 	HibernaComponent,
 	HomeComponent,
 	ImageViewerComponent,
+	InViewDirective,
 	LogoComponent,
 	MaintenanceComponent,
 	NavbarComponent,
 	PlaceholderComponent,
+	RegisterComponent,
 	ResourcesComponent,
 	RulesComponent,
+	UploaderComponent,
 ]
 
 export const APP_IMPORTS: any[] = [
 	AppRouting,
 	BrowserAnimationsModule,
 	BrowserModule,
+	FormsModule,
 	ReactiveFormsModule,
 	MaterialModule
 ]

@@ -2,12 +2,105 @@
 	<div class="cap-width py-5 px-3">
 		<div class="d-flex align-items-end justify-content-between mb-2">
 			<h1 class="mb-0">Calendar</h1>
-			<a class="d-none d-print-none d-sm-flex justify-content-center text-muted" href="javascript:window.print()">
-				<mat-icon class="me-1">print</mat-icon>
-				Print
-			</a>
+			<div class="d-flex gap-3 align-items-center">
+				<ng-container *ngIf="momentum.admin | async">
+					<button class="d-print-none" mat-raised-button color="primary" (click)="openCreate()">
+						<mat-icon>add</mat-icon> Add Event
+					</button>
+				</ng-container>
+				<a class="d-none d-print-none d-sm-flex justify-content-center text-muted" href="javascript:window.print()">
+					<mat-icon class="me-1">print</mat-icon>
+					Print
+				</a>
+			</div>
 		</div>
 		<mat-divider class="mb-4"></mat-divider>
-		<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FToronto&showTitle=0&showNav=1&showPrint=1&showTabs=0&showCalendars=0&src=Y18wYTIxNTM3ZDgwMWMzNTQ0MTUwYzk5YTUwNjI5Yjc5MjM0MjYyYjY0YzYyNzZiZTQ3OWJlMzA4OWU0MmM3NTQ5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23D50000" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+
+		<div class="d-flex align-items-stretch mb-5 p-3" style="background:#f6eed9">
+			<div style="width:3px;background:currentColor;opacity:.4" class="me-3 flex-shrink-0"></div>
+			<div class="py-1">
+				<div class="text-muted small text-uppercase" style="letter-spacing:.15em">Every Month</div>
+				<div class="fw-bold fs-5">Monthly Online Meetup</div>
+				<div class="text-muted small mb-2">Join us online for our regular group gathering</div>
+				<a class="d-print-none" mat-stroked-button href="/register">Register Now</a>
+			</div>
+		</div>
+
+		<ng-container *ngIf="!loading; else spinner">
+			<ng-container *ngIf="events.length">
+				<div *ngFor="let group of groupedEvents" class="mb-5">
+					<div class="text-uppercase small fw-bold mb-3" style="letter-spacing:.2em">{{group.month}}</div>
+
+					<!-- Added print-border class and edit button -->
+					<div *ngFor="let event of group.events" class="d-flex align-items-stretch mb-3 p-3 event-card" style="background:#f6eed9">
+						<div class="text-muted small text-end flex-shrink-0 pe-3" style="min-width:3.5rem">
+							<div class="fw-bold" style="font-size:1.1rem;line-height:1">{{event.date | date:'d'}}</div>
+							<div>{{event.date | date:'EEE'}}</div>
+							<div *ngIf="event.endDate" class="mt-1" style="border-top:1px solid currentColor;opacity:.4;padding-top:.25rem">
+								<div class="fw-bold" style="font-size:1.1rem;line-height:1">{{event.endDate | date:'d'}}</div>
+								<div>{{event.endDate | date:'EEE'}}</div>
+							</div>
+						</div>
+						<div style="width:2px;background:currentColor;opacity:.15" class="flex-shrink-0 me-3"></div>
+						<div class="flex-grow-1">
+							<div class="fw-bold">{{event.title}}</div>
+							<div class="text-muted small" *ngIf="event.location">{{event.location}}</div>
+							<div class="text-muted small" *ngIf="!event.endDate">{{event.date | date:'h:mm a'}}</div>
+							<div class="text-muted small" *ngIf="event.endDate">
+								{{event.date | date:'MMM d, h:mm a'}} – {{event.endDate | date:'MMM d, h:mm a'}}
+							</div>
+							<div class="text-muted small fst-italic mt-1" *ngIf="event.description">{{event.description}}</div>
+						</div>
+						<!-- Edit button, screen only -->
+						<ng-container *ngIf="momentum.admin | async">
+							<button class="d-print-none align-self-start ms-2" mat-icon-button (click)="openEdit(event)">
+								<mat-icon>edit</mat-icon>
+							</button>
+							<button class="d-print-none align-self-start" mat-icon-button (click)="deleteEvent(event)">
+								<mat-icon>delete</mat-icon>
+							</button>
+						</ng-container>
+					</div>
+
+				</div>
+			</ng-container>
+		</ng-container>
+
+		<ng-template #spinner>
+			<div class="text-center py-5"><mat-spinner class="mx-auto"></mat-spinner></div>
+		</ng-template>
 	</div>
 </div>
+
+<!-- Create/Edit Dialog -->
+<ng-template #createDialog>
+	<h2 mat-dialog-title>{{editingId ? 'Edit Event' : 'Add Event'}}</h2>
+	<mat-dialog-content>
+		<mat-form-field class="w-100 mb-2">
+			<mat-label>Title</mat-label>
+			<input matInput [(ngModel)]="form.title" required />
+		</mat-form-field>
+		<mat-form-field class="w-100 mb-2">
+			<mat-label>Date & Time</mat-label>
+			<input matInput type="datetime-local" [(ngModel)]="form.date" required />
+		</mat-form-field>
+		<mat-form-field class="w-100 mb-2">
+			<mat-label>End Date & Time (optional)</mat-label>
+			<input matInput type="datetime-local" [(ngModel)]="form.endDate" />
+		</mat-form-field>
+		<mat-form-field class="w-100 mb-2">
+			<mat-label>Location</mat-label>
+			<input matInput [(ngModel)]="form.location" />
+		</mat-form-field>
+		<mat-form-field class="w-100">
+			<mat-label>Description</mat-label>
+			<textarea matInput [(ngModel)]="form.description" rows="3"></textarea>
+		</mat-form-field>
+	</mat-dialog-content>
+	<mat-dialog-actions align="end">
+		<button mat-button mat-dialog-close>Cancel</button>
+		<button mat-raised-button color="primary" (click)="saveEvent()" [disabled]="saving">
+			{{saving ? 'Saving...' : 'Save'}}
+		</button>
+	</mat-dialog-actions>
+</ng-template>

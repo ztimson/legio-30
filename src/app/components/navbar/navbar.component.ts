@@ -1,8 +1,8 @@
 import {AfterViewInit, Component, EventEmitter, Input, OnDestroy, Output} from '@angular/core';
-import {ActivatedRoute, NavigationEnd, NavigationStart, Router} from '@angular/router';
+import {ActivatedRoute, NavigationStart, Router} from '@angular/router';
 import {combineLatest, filter, Subscription} from 'rxjs';
-import {NAVIGATION} from '../../misc/navigation';
-import {BreakpointService} from '../../services/breakpoint.service';
+import {NAVIGATION, NavigationItem} from '../../misc/navigation';
+import {MomentumService} from '../../services/momentum.service';
 
 @Component({
 	selector: 'xxx-navbar',
@@ -21,7 +21,7 @@ export class NavbarComponent implements AfterViewInit, OnDestroy {
 
 	@Output() hamburgerClick = new EventEmitter<void>();
 
-	constructor(private route: ActivatedRoute, private router: Router, public breakpoint: BreakpointService) { }
+	constructor(private route: ActivatedRoute, private router: Router, public momentum: MomentumService) { }
 
 	ngAfterViewInit() {
 		this.sub = combineLatest([this.router.events.pipe(filter((e: any) => e.navigationTrigger != 'popstate' || e instanceof NavigationStart)), this.route.fragment]).subscribe(([url, frag]) => {
@@ -32,6 +32,15 @@ export class NavbarComponent implements AfterViewInit, OnDestroy {
 
 	ngOnDestroy(): void {
 		if(this.sub) this.sub.unsubscribe();
+	}
+
+	openItem(item: NavigationItem) {
+		// Full url
+		if(item.url.startsWith('http'))
+			location.href = item.url;
+		// Relative
+		else
+			this.router.navigate([item.url], {fragment: item.fragment});
 	}
 
 	scroll(id: string) {

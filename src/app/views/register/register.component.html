@@ -1,0 +1,129 @@
+<div class="invert">
+	<div class="banner d-print-none"></div>
+	<div class="cap-width py-5 px-3">
+		<div>
+			<img src="/assets/img/header.png" alt="Legio XXX" class="mx-auto d-block">
+			<hr>
+		</div>
+
+		<div *ngIf="success" class="alert alert-success">
+			✅ Your registration has been submitted! We will be in touch soon.
+		</div>
+		<div *ngIf="error" class="alert alert-danger">
+			⚠️ Something went wrong, please try again or contact us directly.
+		</div>
+
+		<form #form="ngForm" (ngSubmit)="submit(form.value)" [class.locked]="success">
+			<h3 class="fw-bold mb-2">Member Information</h3>
+			<h4 class="bg-black p-2 text-center text-white fw-bold">Personal Information</h4>
+
+			<div class="row g-3 mb-3">
+				<div class="field col-4">
+					<label>Last Name <span class="required">*</span></label>
+					<input ngModel name="lastName" required [disabled]="success">
+				</div>
+				<div class="field col-4">
+					<label>First Name <span class="required">*</span></label>
+					<input ngModel name="firstName" required [disabled]="success">
+				</div>
+				<div class="field col-4">
+					<label>Date of Birth <span class="required">*</span></label>
+					<input ngModel name="dateOfBirth" type="date" required [disabled]="success">
+				</div>
+			</div>
+
+			<br><br><br>
+
+			<div class="row g-3 mb-3">
+				<div class="field col-8">
+					<label>Street Address</label>
+					<input ngModel name="streetAddress" [disabled]="success">
+				</div>
+				<div class="field col-4">
+					<label>Apartment/Unit #</label>
+					<input ngModel name="unit" [disabled]="success">
+				</div>
+			</div>
+
+			<div class="row g-3 mb-3">
+				<div class="field col-4">
+					<label>City</label>
+					<input ngModel name="city" [disabled]="success">
+				</div>
+				<div class="field col-4">
+					<label>Province/State</label>
+					<input ngModel name="province" [disabled]="success">
+				</div>
+				<div class="field col-4">
+					<label>Postal Code</label>
+					<input ngModel name="postalCode" [disabled]="success">
+				</div>
+			</div>
+
+			<br><br><br>
+
+			<div class="row g-3 mb-3">
+				<div class="field col-6">
+					<label>Home Phone <span class="required">*</span></label>
+					<input ngModel name="homePhone" type="tel" [disabled]="success" required>
+				</div>
+				<div class="field col-6">
+					<label>Alternate Phone</label>
+					<input ngModel name="alternatePhone" type="tel" [disabled]="success">
+				</div>
+			</div>
+
+			<div class="field mb-3">
+				<label>Email <span class="required">*</span></label>
+				<input ngModel name="email" type="email" required [disabled]="success">
+			</div>
+
+			<h4 class="bg-black p-2 text-center text-white fw-bold">Reenacting</h4>
+
+			<div class="field mb-3">
+				<label>Chosen Roman Name</label>
+				<input ngModel name="romanName" [disabled]="success">
+			</div>
+
+			<div class="row g-3 mb-3">
+				<div class="field col-6">
+					<label>First Choice of Position</label>
+					<input ngModel name="positionFirst" [disabled]="success">
+				</div>
+				<div class="field col-6">
+					<label>Second Choice of Position</label>
+					<input ngModel name="positionSecond" [disabled]="success">
+				</div>
+			</div>
+
+			<div class="field mb-3">
+				<label>Have you ever re-enacted?</label>
+				<input ngModel name="previousReenacting" [disabled]="success">
+			</div>
+
+			<br><br><br>
+
+			<div class="field mb-3">
+				<label>Special Skills</label>
+				<textarea ngModel name="specialSkills" rows="3" [disabled]="success"></textarea>
+			</div>
+
+			<div class="field mb-3">
+				<label>Physical Limitations</label>
+				<textarea ngModel name="physicalLimitations" rows="3" [disabled]="success"></textarea>
+			</div>
+
+			<div class="field mb-3">
+				<label>Comments</label>
+				<textarea ngModel name="comments" rows="5" [disabled]="success"></textarea>
+			</div>
+
+			<div class="d-flex justify-content-end">
+				<button type="submit" [disabled]="form.invalid || loading || success">
+					{{ loading ? 'Submitting...' : 'Submit Registration' }}
+				</button>
+			</div>
+
+		</form>
+	</div>
+</div>

@@ -1,8 +1,22 @@
 <div class="invert p-5">
-	<div *ngFor="let album of photos" class="mb-5">
-		<h1 class="mb-0">{{album.album}}</h1>
+	<div class="d-flex justify-content-between align-items-center mb-4">
+		<h1 class="display-4 mb-0">Gallery</h1>
+
+		<ng-container *ngIf="momentum.isLoggedIn | async">
+			<button mat-raised-button color="primary" [matMenuTriggerFor]="uploadMenu">
+				<mat-icon>upload</mat-icon> Upload Photos
+			</button>
+
+			<mat-menu #uploadMenu="matMenu">
+				<button mat-menu-item *ngFor="let y of uploadYears" (click)="upload(y)">{{y}}</button>
+			</mat-menu>
+		</ng-container>
+	</div>
+
+	<div *ngFor="let album of photos" class="mb-5" (inView)="loadAlbum(album)">
+		<h1 class="display-6 mb-0">{{album.album}}</h1>
 		<mat-divider class="mb-3"></mat-divider>
-		<div *ngFor="let photo of album.photos; let i = index" class="d-inline-block me-3 mb-3">
+		<div *ngFor="let photo of album.photos" class="d-inline-block me-3 mb-3">
 			<xxx-placeholder [src]="photo.src" [alt]="photo.alt" height="150px" (click)="open(photo)"></xxx-placeholder>
 		</div>
 	</div>

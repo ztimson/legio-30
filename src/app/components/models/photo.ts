@@ -1,4 +1,5 @@
 export interface Photo {
 	alt: string;
 	src: string;
+	path: string;
 }

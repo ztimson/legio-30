@@ -18,9 +18,20 @@
 				<mat-menu #menu="matMenu">
 					<ng-container *ngFor="let section of group.children; let first = first">
 						<mat-divider *ngIf="!first"></mat-divider>
-						<button *ngFor="let item of section" mat-menu-item [routerLink]="item.url" [fragment]="item.fragment">
+						<button *ngFor="let item of section" mat-menu-item (click)="openItem(item)">
 							{{item.label}}
 						</button>
+					</ng-container>
+					<!-- Auth items, Members menu only -->
+					<ng-container *ngIf="group.label === 'Members'">
+						<mat-divider></mat-divider>
+						<ng-container *ngIf="momentum.isLoggedIn | async; else guestItems">
+							<button mat-menu-item (click)="momentum.api.auth.logout()">Logout</button>
+						</ng-container>
+						<ng-template #guestItems>
+							<button mat-menu-item (click)="momentum.api.auth.handleLogin()">Login</button>
+							<button mat-menu-item (click)="openItem({label:'Register', url:'/register'})">Register</button>
+						</ng-template>
 					</ng-container>
 				</mat-menu>
 			</ng-container>
@@ -30,7 +41,7 @@
 			<mat-icon>menu</mat-icon>
 		</button>
 		<mat-menu #menu="matMenu">
-			<button mat-menu-item *ngFor="let item of links.topLevel" [routerLink]="item.url" [fragment]="item.fragment">
+			<button mat-menu-item *ngFor="let item of links.topLevel" (click)="openItem(item)">>
 				{{item.label}}
 			</button>
 			<ng-container *ngFor="let group of links.other">
