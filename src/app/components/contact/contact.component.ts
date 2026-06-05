@@ -27,6 +27,7 @@ export class ContactComponent {
 		try {
 			await this.momentum.api.data.create(MomentumService.SCHEMA['contact'], this.form.value);
 			this.success = true;
+			this.form.disable();
 		} catch (error: any) {
 			this.error = error.message;
 		}

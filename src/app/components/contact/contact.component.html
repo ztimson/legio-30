@@ -37,7 +37,7 @@
 			<div class="d-flex justify-content-end align-items-center">
 				<div>
 					<button mat-stroked-button type="button" class="me-3" (click)="reset()">Reset</button>
-					<button mat-raised-button type="submit" color="primary">Send</button>
+					<button mat-raised-button type="submit" color="primary" [disabled]="success">Send</button>
 				</div>
 			</div>
 		</form>
