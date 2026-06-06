@@ -34,6 +34,10 @@ export class NavbarComponent implements AfterViewInit, OnDestroy {
 		if(this.sub) this.sub.unsubscribe();
 	}
 
+	openAdmin() {
+		location.href = '/ui';
+	}
+
 	openItem(item: NavigationItem) {
 		// Full url
 		if(item.url.startsWith('http'))

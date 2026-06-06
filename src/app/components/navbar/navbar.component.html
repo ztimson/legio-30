@@ -35,13 +35,26 @@
 					</ng-container>
 				</mat-menu>
 			</ng-container>
+			<button mat-button [matMenuTriggerFor]="menu2" class="navbar-button">
+				Members <mat-icon>expand_more</mat-icon>
+			</button>
+			<mat-menu #menu2="matMenu">
+				<ng-container *ngIf="momentum.isLoggedIn | async; else guestItems">
+					<button *ngIf="momentum.admin | async" mat-menu-item (click)="openAdmin()">Admin</button>
+					<button mat-menu-item (click)="momentum.api.auth.logout()">Logout</button>
+				</ng-container>
+				<ng-template #guestItems>
+					<button mat-menu-item (click)="momentum.api.auth.handleLogin()">Login</button>
+					<button mat-menu-item (click)="openItem({label:'Register', url:'/register'})">Register</button>
+				</ng-template>
+			</mat-menu>
 		</div>
-		<!-- Mobile NavBar -->
+<!--		 Mobile NavBar-->
 		<button *ngIf="hamburger" mat-icon-button class="text-start" [matMenuTriggerFor]="menu">
 			<mat-icon>menu</mat-icon>
 		</button>
 		<mat-menu #menu="matMenu">
-			<button mat-menu-item *ngFor="let item of links.topLevel" (click)="openItem(item)">>
+			<button mat-menu-item *ngFor="let item of links.topLevel" (click)="openItem(item)">
 				{{item.label}}
 			</button>
 			<ng-container *ngFor="let group of links.other">
@@ -55,6 +68,19 @@
 					</ng-container>
 				</mat-menu>
 			</ng-container>
+			<button mat-menu-item [matMenuTriggerFor]="menu3" class="navbar-button">
+				Members
+			</button>
+			<mat-menu #menu3="matMenu">
+				<ng-container *ngIf="momentum.isLoggedIn | async; else guestItems">
+					<button *ngIf="momentum.admin | async" mat-menu-item (click)="openAdmin()">Admin</button>
+					<button mat-menu-item (click)="momentum.api.auth.logout()">Logout</button>
+				</ng-container>
+				<ng-template #guestItems>
+					<button mat-menu-item (click)="momentum.api.auth.handleLogin()">Login</button>
+					<button mat-menu-item (click)="openItem({label:'Register', url:'/register'})">Register</button>
+				</ng-template>
+			</mat-menu>
 		</mat-menu>
 	</mat-toolbar-row>
 </mat-toolbar>

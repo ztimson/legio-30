@@ -14,7 +14,6 @@ export const NAVIGATION: NavigationGroup = [
 			{label: 'About', url: '/about'},
 			{label: 'Contact', url: '/', fragment: 'contact'},
 			{label: 'Gallery', url: '/gallery'},
-			{label: 'Resources', url: '/info/resources'},
 	]]},
 	// {label: 'Learn', children: [[
 	// 		{label: 'Trajan', url: '/info/trajan'},
@@ -35,10 +34,11 @@ export const NAVIGATION: NavigationGroup = [
 			{label: 'Drill Commands', url: '/drill'},
 			{label: 'Equipment', url: '/equipment'},
 			{label: 'Maintenance', url: '/maintenance'},
+			{label: 'Resources', url: '/info/resources'},
 			{label: 'Rules & Regulations', url: '/rules'},
 		]
 	]},
-	{label: 'Members', children: [[
+	{label: 'Events', children: [[
 			{label: 'Calendar', url: '/events/calendar'},
 		], [
 			{label: 'Castra Aestiva', url: '/events/castra-aestiva'},
