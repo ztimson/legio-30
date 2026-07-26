@@ -21,7 +21,7 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
-    "@ztimson/momentum": "^1.2.1",
+    "@ztimson/momentum": "^1.5.4",
     "bootstrap": "^5.2.1",
     "jquery": "^3.6.1",
     "ngx-google-analytics": "^14.0.1",
